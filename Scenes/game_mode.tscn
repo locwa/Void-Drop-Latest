@@ -1,0 +1,283 @@
+[gd_scene load_steps=16 format=3 uid="uid://prrjytuqg3j5"]
+
+[ext_resource type="Texture2D" uid="uid://c6l5vp4s3yj4w" path="res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png" id="2_jpdtg"]
+[ext_resource type="FontFile" uid="uid://dyp8fkh6vkdxf" path="res://Assets/fonts/pixeled/04B_30__.TTF" id="3_dj2ug"]
+
+[sub_resource type="GDScript" id="GDScript_ki45p"]
+script/source = "extends Control
+
+
+func _on_player_pressed() -> void:
+	pass # Replace with function body.
+
+
+func _on_back_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://Scenes/main_menu.tscn\")
+"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_opfnp"]
+texture = ExtResource("2_jpdtg")
+modulate_color = Color(0.592157, 0.592157, 0.592157, 1)
+
+[sub_resource type="Animation" id="Animation_yhxw7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_styles/panel:modulate_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.592157, 0.592157, 0.592157, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_cp0ys"]
+resource_name = "background_glow"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_styles/panel:modulate_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0.592157, 0.592157, 0.592157, 1), Color(1, 1, 1, 1), Color(0.592157, 0.592157, 0.592157, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_trj04"]
+_data = {
+&"RESET": SubResource("Animation_yhxw7"),
+&"background_glow": SubResource("Animation_cp0ys")
+}
+
+[sub_resource type="Animation" id="Animation_opfnp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_colors/font_shadow_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.584314, 0.0470588, 0.47451, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_n45e2"]
+resource_name = "menu_title_glow"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_colors/font_shadow_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0.584314, 0.0470588, 0.47451, 0.27451), Color(0.811765, 0.0117647, 0.533333, 0.690196), Color(0.584314, 0.0470588, 0.47451, 0.27451)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cp0ys"]
+_data = {
+&"RESET": SubResource("Animation_opfnp"),
+&"menu_title_glow": SubResource("Animation_n45e2")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n45e2"]
+bg_color = Color(0.45098, 0.027451, 0.372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8, 0.0117647, 0.529412, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_opfnp"]
+bg_color = Color(0.333788, 0.0141867, 0.273502, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.424625, 0.00157465, 0.272682, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cp0ys"]
+bg_color = Color(0.946185, 0.435112, 0.817598, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.998286, 0.592422, 0.79184, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yhxw7"]
+bg_color = Color(0.45098, 0.027451, 0.372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8, 0.0117647, 0.529412, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1ehe0"]
+
+[node name="GameMode" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_ki45p")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_opfnp")
+
+[node name="BackgroundGlow" type="AnimationPlayer" parent="Background"]
+libraries = {
+&"": SubResource("AnimationLibrary_trj04")
+}
+autoplay = "background_glow"
+
+[node name="MenuTitle" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.283179
+anchor_right = 0.5
+anchor_bottom = 0.283179
+offset_left = -238.0
+offset_top = -30.5
+offset_right = 238.0
+offset_bottom = 30.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0.584314, 0.0470588, 0.47451, 0)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_dj2ug")
+theme_override_font_sizes/font_size = 100
+text = "VOID DROP"
+metadata/_edit_use_anchors_ = true
+
+[node name="MenuTitleGlow" type="AnimationPlayer" parent="MenuTitle"]
+libraries = {
+&"": SubResource("AnimationLibrary_cp0ys")
+}
+autoplay = "menu_title_glow"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.658758
+anchor_right = 0.5
+anchor_bottom = 0.658758
+offset_left = -256.25
+offset_top = -142.875
+offset_right = 256.25
+offset_bottom = 142.875
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 17
+metadata/_edit_use_anchors_ = true
+
+[node name="1Player" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_focus_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_pressed_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_hover_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_disabled_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("3_dj2ug")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_n45e2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_opfnp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cp0ys")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_yhxw7")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_1ehe0")
+text = "1 Player"
+
+[node name="2Player" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_focus_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_pressed_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_hover_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_disabled_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("3_dj2ug")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_n45e2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_opfnp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cp0ys")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_yhxw7")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_1ehe0")
+text = "2 Player"
+
+[node name="Back" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_focus_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_pressed_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_hover_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_disabled_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("3_dj2ug")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_n45e2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_opfnp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_cp0ys")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_yhxw7")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_1ehe0")
+text = "Back"
+
+[connection signal="pressed" from="VBoxContainer/1Player" to="." method="_on_player_pressed"]
+[connection signal="pressed" from="VBoxContainer/2Player" to="." method="_on_player_pressed"]
+[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_back_pressed"]

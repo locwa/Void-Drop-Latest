@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4jiscxx0ojcu"]
+
+[ext_resource type="Script" uid="uid://chkyjdwk8m6j0" path="res://Scripts/menu_music.gd" id="1_doxou"]
+[ext_resource type="AudioStream" uid="uid://cs7xky4itstxf" path="res://Assets/Title Theme.wav" id="2_doxou"]
+
+[node name="MenuMusic" type="Node2D"]
+script = ExtResource("1_doxou")
+
+[node name="MusicPlayer" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_doxou")
+
+[connection signal="finished" from="MusicPlayer" to="." method="_on_music_player_finished"]

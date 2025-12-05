@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4iaj6j10omqb"
+path="res://.godot/imported/Fields of Ice.wav-ceced6980d9fd75a85a309b00d572a39.sample"
+
+[deps]
+
+source_file="res://Assets/Fields of Ice.wav"
+dest_files=["res://.godot/imported/Fields of Ice.wav-ceced6980d9fd75a85a309b00d572a39.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

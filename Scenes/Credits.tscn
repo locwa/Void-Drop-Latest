@@ -1,0 +1,307 @@
+[gd_scene load_steps=14 format=3 uid="uid://r2y4aegrerjx"]
+
+[ext_resource type="Script" uid="uid://bcf00f836iaci" path="res://Scenes/credits.gd" id="1_i8h6y"]
+[ext_resource type="Texture2D" uid="uid://c6l5vp4s3yj4w" path="res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png" id="2_xbebw"]
+[ext_resource type="FontFile" uid="uid://dyp8fkh6vkdxf" path="res://Assets/fonts/pixeled/04B_30__.TTF" id="3_7xmno"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7xmno"]
+texture = ExtResource("2_xbebw")
+
+[sub_resource type="Animation" id="Animation_yhxw7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_styles/panel:modulate_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_cp0ys"]
+resource_name = "background_glow"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_styles/panel:modulate_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0.592157, 0.592157, 0.592157, 1), Color(1, 1, 1, 1), Color(0.592157, 0.592157, 0.592157, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_xbebw"]
+resource_name = "credit_bg_glow"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_styles/panel:modulate_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.533333, 1.03333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.654232, 0.654232, 0.654232, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_trj04"]
+_data = {
+&"RESET": SubResource("Animation_yhxw7"),
+&"background_glow": SubResource("Animation_cp0ys"),
+&"credit_bg_glow": SubResource("Animation_xbebw")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f64u0"]
+bg_color = Color(0.45098, 0.027451, 0.372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8, 0.0117647, 0.529412, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iynit"]
+bg_color = Color(0.333788, 0.0141867, 0.273502, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.424625, 0.00157465, 0.272682, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7xmno"]
+bg_color = Color(0.946185, 0.435112, 0.817598, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.998286, 0.592422, 0.79184, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uy3b0"]
+bg_color = Color(0.946185, 0.435112, 0.817598, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.998286, 0.592422, 0.79184, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7xmno"]
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i8h6y")
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -3.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_7xmno")
+
+[node name="BackgroundGlow" type="AnimationPlayer" parent="Background"]
+libraries = {
+&"": SubResource("AnimationLibrary_trj04")
+}
+autoplay = "credit_bg_glow"
+
+[node name="viewport" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CreditsContainer" type="VBoxContainer" parent="viewport"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -165.0
+offset_bottom = 165.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="Creditxt" type="Label" parent="viewport/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_font_sizes/font_size = 25
+text = "Prepared By:"
+
+[node name="Creditxt2" type="Label" parent="viewport/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_font_sizes/font_size = 25
+text = "PASING, JUN WALENG D."
+
+[node name="Creditxt3" type="Label" parent="viewport/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_font_sizes/font_size = 25
+text = "POLICARPIO, LOUIS ANTONIO"
+
+[node name="Creditxt4" type="Label" parent="viewport/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_font_sizes/font_size = 25
+text = "SALCEDO,R J G."
+
+[node name="Creditxt5" type="Label" parent="viewport/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_font_sizes/font_size = 25
+text = "VICENTE,KHEN B."
+
+[node name="End" type="Label" parent="viewport/CreditsContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.45098, 0.027451, 0.372549, 1)
+theme_override_colors/font_outline_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_constants/shadow_offset_y = 8
+theme_override_constants/outline_size = 12
+theme_override_constants/shadow_outline_size = 27
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_font_sizes/font_size = 25
+text = "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HELLO WORLD.CO LTD
+THANKS FOR PLAYING!"
+horizontal_alignment = 1
+
+[node name="Back" type="Button" parent="."]
+process_mode = 3
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.942708
+anchor_top = 0.919753
+anchor_right = 0.942708
+anchor_bottom = 0.919753
+offset_left = -116.0
+offset_top = -64.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_focus_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_pressed_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_hover_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("3_7xmno")
+theme_override_styles/normal = SubResource("StyleBoxFlat_f64u0")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_iynit")
+theme_override_styles/hover = SubResource("StyleBoxFlat_7xmno")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_uy3b0")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_7xmno")
+text = "Back"
+metadata/_edit_use_anchors_ = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Fade" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

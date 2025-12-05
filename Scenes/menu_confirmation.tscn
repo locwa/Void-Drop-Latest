@@ -1,0 +1,170 @@
+[gd_scene load_steps=8 format=3 uid="uid://doakkre854o76"]
+
+[ext_resource type="Script" uid="uid://cv5ets7lj82ee" path="res://Scripts/menu_confirmation.gd" id="1_5p28k"]
+[ext_resource type="FontFile" uid="uid://dyp8fkh6vkdxf" path="res://Assets/Fonts/pixeled/04B_30__.TTF" id="1_8rpuh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8rpuh"]
+bg_color = Color(0.156863, 0.00784314, 0.137255, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+expand_margin_left = 20.0
+expand_margin_top = 20.0
+expand_margin_right = 20.0
+expand_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5f2uc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0hivy"]
+bg_color = Color(0.946185, 0.435112, 0.817598, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.998286, 0.592422, 0.79184, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t68pl"]
+bg_color = Color(0.333788, 0.0141867, 0.273502, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.424625, 0.00157465, 0.272682, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5p28k"]
+bg_color = Color(0.45098, 0.027451, 0.372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8, 0.0117647, 0.529412, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_color = Color(0.584314, 0.0470588, 0.47451, 1)
+shadow_size = 10
+shadow_offset = Vector2(0, 5.06)
+
+[node name="MenuConfirmation" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5p28k")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0)
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -224.0
+offset_top = -128.0
+offset_right = 224.0
+offset_bottom = 128.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_8rpuh")
+
+[node name="Message" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -224.0
+offset_top = -76.0
+offset_right = 224.0
+offset_bottom = -31.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 6
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("1_8rpuh")
+theme_override_font_sizes/font_size = 20
+text = "Are you sure you want to quit the game?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Yes" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.285714
+anchor_top = 0.724609
+anchor_right = 0.285714
+anchor_bottom = 0.724609
+offset_left = -80.0
+offset_top = -29.5
+offset_right = 80.0
+offset_bottom = 29.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_focus_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_pressed_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("1_8rpuh")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5f2uc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_0hivy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_t68pl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_5p28k")
+text = "YES"
+
+[node name="No" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.714286
+anchor_top = 0.724609
+anchor_right = 0.714286
+anchor_bottom = 0.724609
+offset_left = -80.0
+offset_top = -29.5
+offset_right = 80.0
+offset_bottom = 29.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_hover_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_focus_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_colors/font_pressed_color = Color(0.811765, 0.0117647, 0.533333, 1)
+theme_override_fonts/font = ExtResource("1_8rpuh")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5f2uc")
+theme_override_styles/hover = SubResource("StyleBoxFlat_0hivy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_t68pl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_5p28k")
+text = "NO"
+
+[connection signal="pressed" from="Panel/Yes" to="." method="_on_yes_pressed"]
+[connection signal="pressed" from="Panel/No" to="." method="_on_no_pressed"]
