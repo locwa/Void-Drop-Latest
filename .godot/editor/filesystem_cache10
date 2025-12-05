@@ -1,589 +1,68 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764947114
-default_bus_layout.tres::AudioBusLayout::8208444497028997562::1764776241::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D::6479420569185110009::1764776241::1764776296::1::::<><><>0<>0<>8ae1e026d1b11e51ecbad7f992d30bb5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-leaderboard.cfg::TextFile::-1::1764908868::0::1::::<><><>0<>0<><>::
-menu_music.tscn::PackedScene::6827415254564284828::1764776241::0::1::::<><><>0<>0<><>::uid://chkyjdwk8m6j0::::res://Scripts/menu_music.gd<>uid://cs7xky4itstxf::::res://Assets/Title Theme.wav
-README.md::TextFile::-1::1764776241::0::1::::<><><>0<>0<><>::
-::res://Assets/::1764776297
-Fields of Ice.wav::AudioStreamWAV::4438429886716050769::1764776241::1764776297::1::::<><><>0<>0<>4f7e8e1fe311d76dab759b7afff0b5f2<>res://.godot/imported/Fields of Ice.wav-ceced6980d9fd75a85a309b00d572a39.sample::
-main_lev_buildA.png::CompressedTexture2D::8397650847369101164::1764776241::1764776296::1::::<><><>0<>0<>76131bede7b86c327e6c75345f02e64a<>res://.godot/imported/main_lev_buildA.png-be8499b972b49f6dc6ab2da856c5b625.ctex::
-main_lev_buildB.png::CompressedTexture2D::5473062090600276357::1764776241::1764776296::1::::<><><>0<>0<>7052b52d25cc6e68dfe5a7c95ed7f556<>res://.godot/imported/main_lev_buildB.png-e93a0a8e69e485fbce4deb07fead633b.ctex::
-progress_bar.png::CompressedTexture2D::1473078372777351969::1764776241::1764776296::1::::<><><>0<>0<>96a347e515742f2a282190347a417f3a<>res://.godot/imported/progress_bar.png-0acf7e6b44fb4bdb7e3f70849d91ebc3.ctex::
-progress_bar_bg.png::CompressedTexture2D::3138222139881106804::1764776241::1764776296::1::::<><><>0<>0<>2ddac1951a46f22504759cba632d36c9<>res://.godot/imported/progress_bar_bg.png-66de479ee592d32f40409bc53373cbcc.ctex::
-public-license.txt::TextFile::-1::1764776241::0::1::::<><><>0<>0<><>::
-tilemap.png::CompressedTexture2D::5769448189219857880::1764776241::1764776296::1::::<><><>0<>0<>71792792bd022a2f1930ee3e4c0c5bed<>res://.godot/imported/tilemap.png-fbb7d040985d294f094a5740961103d2.ctex::
-tile_0003.png::CompressedTexture2D::7099616887378487382::1764776241::1764776296::1::::<><><>0<>0<>f0a47fc50ee887994f19c758d0a86b88<>res://.godot/imported/tile_0003.png-0b2154f9f82c993bfef02d411e513c5a.ctex::
-Title Theme.wav::AudioStreamWAV::6103716295522711007::1764776241::1764776294::1::::<><><>0<>0<>5738c919245651bf15c85f7c7c431167<>res://.godot/imported/Title Theme.wav-18a13466a11ddea9f6e8182e5494b124.sample::
-::res://Assets/__MACOSX/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/::1764776242
-._public-license.txt::TextFile::-1::1764776241::0::1::::<><><>0<>0<><>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/demo/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/demo/assets/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/demo/assets/atlas/::1764776242
-._atlas.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>52f92f226eec33cc55208f9033a3ee68<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/demo/assets/environment/::1764776242
-._bg-graveyard.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>5c1b9153f9cfada852e3286dd3e50088<>::
-._bg-moon.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>6dcec11b2e9032524821dc8828288259<>::
-._bg-mountains.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>bdd33be391c67f8edbc7666f77fd3661<>::
-._objects.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>7061678786e738f88a86f9d5f7f1de1f<>::
-._tileset.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>7f93fcf2631429cd4d64734cba8938e4<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/demo/assets/sounds/::1764776242
-._attack.ogg::::-1::1764776242::1764776242::0::::<><><>0<>0<>5ca7c3bc16a88fe8ab0897b2eefff7fd<>::
-._hurt.ogg::::-1::1764776242::1764776242::0::::<><><>0<>0<>1561981e5bb74bde5799f6359c25c0c5<>::
-._jump.ogg::::-1::1764776242::1764776242::0::::<><><>0<>0<>a0250a6c9421bd487eb8bd77d70e5afb<>::
-._kill.ogg::::-1::1764776242::1764776242::0::::<><><>0<>0<>56f9284a38d245f0efd0fd9dede9e09e<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/demo/assets/sprites/::1764776242
-._credits-text.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>95ec1b4099a8536a60c781b0ab2e6b26<>::
-._game-over.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>cc29a1e201568156fbacf2f0b01de122<>::
-._instructions.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>7f457e9e7b475a81e38495263bf301cb<>::
-._loading.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b7927a60370829390de74b83618b5dde<>::
-._press-enter-text.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>1871c2da05752f446e12643af21897d3<>::
-._title-screen.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>eab2d3d5a5e0b1f7b6b5aaceca00467e<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/GIFS/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/GIFS/ghost/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/GIFS/hell-gato/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/GIFS/hero/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/GIFS/misc/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/GIFS/skeleton/::1764776241
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Environment/::1764776242
-._background.png::::-1::1764776241::1764776241::0::::<><><>0<>0<>1d94d2d52a42c27803febadc9ecbbc11<>::
-._graveyard.png::::-1::1764776241::1764776241::0::::<><><>0<>0<>8ebcb80e94a063e4475b9d1ec91fe234<>::
-._mountains.png::::-1::1764776241::1764776242::0::::<><><>0<>0<>3035e3c7baf16ed54e08f930af934bf4<>::
-._objects.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>8de34219db1fa1b00a7393fa2b52f2f8<>::
-._tileset-sliced.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>478f8e9218070e83be5c705a123619f9<>::
-._tileset.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b137825667472c668231d379e4ca2701<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Environment/sliced-objects/::1764776242
-._bush-large.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>782790b4be068ec914d802bc6bc503e3<>::
-._bush-small.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b7eb13d8022ccbdb1fc5e408e6fff4b7<>::
-._statue.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>390d09b7f24d086831d035588d24eefe<>::
-._stone-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>657a34e356a31db167227607a9124bf0<>::
-._stone-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>474d588cdb0332d6c7d8662b406d5139<>::
-._stone-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>3efadd256eb6c12858d09469dc802529<>::
-._stone-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>390f08416425a97a1753364ed25f2d25<>::
-._tree-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>1f38f04be9bf28858347bd48917de30b<>::
-._tree-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>2f118fef4e00a3691718634d3d3cfd7b<>::
-._tree-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>c322e7730a3a83d6d45a176ab300daaa<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/enemy-death/::1764776242
-._enemy-death-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>89fdf49ada1d14c20bb0369aa00d75eb<>::
-._enemy-death-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b94cd1bc9f1fc6ab738decadf6eed088<>::
-._enemy-death-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>1e046216b1a3dbeef9b84cbb043d7d94<>::
-._enemy-death-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>162f2a033ba52a3c17c0986e756c105d<>::
-._enemy-death-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>2f83c9396a19d4c41774d329aed1e329<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/ghost/::1764776242
-._ghost-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>c01526fa0e8e11bd736221df4b71b731<>::
-._ghost-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>21b3bcd841a4859316f9a90f4fb3e42a<>::
-._ghost-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>f88ed4b7abc8784f22946990edb720bf<>::
-._ghost-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>c1c4eefadfa0e538dbe90b87f177473e<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/ghost-halo/::1764776242
-._ghost-halo-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>4feb9cfe2c04042061580425c6e55be9<>::
-._ghost-halo-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>a96aa6c70f19d9f18d282ce8aae33a47<>::
-._ghost-halo-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>a1757cb190b26748e0c331bc6f7061ca<>::
-._ghost-halo-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>5ec53fb56f0c858d2ecf861f61176f13<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hell-gato/::1764776242
-._hell-gato-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>497d7ae4b83553700b6619add30f6ede<>::
-._hell-gato-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>5af4628f2b242cdc10cc54550f995987<>::
-._hell-gato-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>7e8f843826dd0c2a7853eb5fecbe5f5e<>::
-._hell-gato-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>3463aa687d40644e418b604a011ee0de<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/hero-attack/::1764776242
-._hero-attack-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>ab179b1ca42c1a6be9071298a436d553<>::
-._hero-attack-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>43dd0d8fcb8a526f103bc5aa99de18cc<>::
-._hero-attack-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>9698b16773650475244501e728dd558f<>::
-._hero-attack-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>7e5a52d3da1e4cfd917f7d02170398e4<>::
-._hero-attack-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>4e2b198fdd894f5119174b8c935e74eb<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/hero-crouch/::1764776242
-._hero-crouch.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>438c86ddd191c58a17358c16640e50b6<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/hero-hurt/::1764776242
-._hero-hurt.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>6aa0102be58130926c2ebb786f73a669<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/hero-idle/::1764776242
-._hero-idle-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>00c5fc613ea88e62b96f9224c8dfde04<>::
-._hero-idle-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>1eb522fe898fca68eae4df9d141a1184<>::
-._hero-idle-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>2a0f3702a05bf042af7ad97900beaada<>::
-._hero-idle-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>edd8548f7b379a7bba3c2e3ee644aa0d<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/hero-jump/::1764776242
-._hero-jump-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>334a1150edee3c4ca529718780f32a55<>::
-._hero-jump-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>1e77f200330cd768310cf5ca84efc02e<>::
-._hero-jump-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b7fe985a378c292d30ad813c27cea0c7<>::
-._hero-jump-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>6b6ec15f66126c0bf89f97cb250b9226<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/hero/hero-run/::1764776242
-._hero-run-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>ab2c21fe27c916fcb923775cb12a15f9<>::
-._hero-run-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>e52e92a155bebacb24ae5a02f33620ec<>::
-._hero-run-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>c916b6388e5c8aa61eb748c76404cb7e<>::
-._hero-run-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b22f8e8cf494a7b9be0041839a5af340<>::
-._hero-run-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>e1bb6a91f14ff430df718f08d23714ca<>::
-._hero-run-6.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>baddd600b40d966fa511d06486f42b25<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/skeleton/::1764776242
-._skeleton-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>580283cac214c1e7df50ee8ec44ab849<>::
-._skeleton-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>dcac0749eb055f3154f6a90a3fa1ad86<>::
-._skeleton-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>3309edf2847fe76e71bdf165661d8c1c<>::
-._skeleton-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>8cd623b1c2264530517900bcba01b59e<>::
-._skeleton-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>295ae47666b06f0144c9f76fb414d376<>::
-._skeleton-6.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>19314d86f630640c8200df08bf07a96b<>::
-._skeleton-7.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>41f90d2427526becc17270d7da7ddf59<>::
-._skeleton-8.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>9370b71921b38b9c5d95c7c0bcdd69c9<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/skeleton-clothed/::1764776242
-._skeleton-clothed-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>db4aa5a296118553787eaf32e69b2e73<>::
-._skeleton-clothed-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>25182d8908576ae05d539cea34236c2b<>::
-._skeleton-clothed-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>0ddf6bbb6832245214aec6c74a31d2a5<>::
-._skeleton-clothed-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>238ccf2d314c997481260629f62ca27a<>::
-._skeleton-clothed-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>67c59aee466d79dd6ad1dda3f7d572b3<>::
-._skeleton-clothed-6.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>8cca98f43b9e1635f953183e86fe0c96<>::
-._skeleton-clothed-7.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>e955a498947513fcb3b48b5e7891a7d6<>::
-._skeleton-clothed-8.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>8a9e179cfe978dc41eb3fe041e52b008<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/skeleton-rise/::1764776242
-._skeleton-rise-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>43841f731e7a8dcb403e5f709ca7d1c4<>::
-._skeleton-rise-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>c09dd1ce55995cf5762b560e83e154f9<>::
-._skeleton-rise-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>35ef99bec2aee6842542e434b3078ea2<>::
-._skeleton-rise-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>8104717ca2382d5438f32bc7e5e7c66a<>::
-._skeleton-rise-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>28b24ef683f38cc70bf7cc5413c84b17<>::
-._skeleton-rise-6.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>17d3f011603aa894e43d1eadc493fb2b<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PNG/Sprites/skeleton-rise-clothed/::1764776242
-._skeleton-rise-clothed-1.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>a8425ff521c9e8657b740bc5ff9cb213<>::
-._skeleton-rise-clothed-2.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>85fa12d0e7f0de1ccb48f28dc94a5616<>::
-._skeleton-rise-clothed-3.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>3d40c12701b0e643e4cc0db7b2c721b2<>::
-._skeleton-rise-clothed-4.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>84797d48edd917376619deb5c6584043<>::
-._skeleton-rise-clothed-5.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>b9426f67ac565c6f257f20ed23ec115a<>::
-._skeleton-rise-clothed-6.png::::-1::1764776242::1764776242::0::::<><><>0<>0<>e1724acad1fd12220487006459e06bfc<>::
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PSD/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PSD/environment/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PSD/misc/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PSD/sprites/::1764776242
-::res://Assets/__MACOSX/gothicvania-cemetery-files/PSD/sprites/hero/::1764776242
-::res://Assets/Background/::1764776296
-background1.png::CompressedTexture2D::5961485307385257579::1764776241::1764776296::1::::<><><>0<>0<>d90be8e2d805ae904c2fbcd43f5d2f0f<>res://.godot/imported/background1.png-9f387bd277a701d429a83ae76c1cc844.ctex::
-background1Alt.png::CompressedTexture2D::8309044786712543113::1764776241::1764776296::1::::<><><>0<>0<>207e4983631bd43a0d2974ba3660fbb3<>res://.godot/imported/background1Alt.png-69d654b323fc3151b1cba4e3dd00569f.ctex::
-background2.png::CompressedTexture2D::3274698655427954610::1764776241::1764776296::1::::<><><>0<>0<>8edd2235efa1df51464adb8b56a49754<>res://.godot/imported/background2.png-ee8ed443b92727ae72765f24507af119.ctex::
-background3.png::CompressedTexture2D::5085720217679129321::1764776241::1764776296::1::::<><><>0<>0<>56f76841e638c126486bf92cf231be86<>res://.godot/imported/background3.png-2baca6fd8552bcea101f35a523424470.ctex::
-background4.png::CompressedTexture2D::475619282118581647::1764776241::1764776296::1::::<><><>0<>0<>d522d280bdd0a9894f3bc4bfa909d7a0<>res://.godot/imported/background4.png-655988e50445c21fbc548d68d5938375.ctex::
-background5.png::CompressedTexture2D::8394008066329325558::1764776241::1764776296::1::::<><><>0<>0<>58030e27b8e5871cc60fad2de70d420e<>res://.godot/imported/background5.png-8ad8944bc96c470a430c0d90b63c480e.ctex::
-background6.png::CompressedTexture2D::7850595784722031310::1764776241::1764776296::1::::<><><>0<>0<>5fe1bc42c6e0055c8213ea3df11af9e8<>res://.godot/imported/background6.png-be260c4899259121a40a7e0d8dd5301c.ctex::
-main_lev_buildB.png::CompressedTexture2D::1883098916621364195::1764776241::1764776296::1::::<><><>0<>0<>9013b4fa14141027e12a8ce65bf65b56<>res://.godot/imported/main_lev_buildB.png-96f4c9fc1e00b735aea9a9460441c6a7.ctex::
-::res://Assets/bgmusic/::1764776296
-BurningMemory.ogg::AudioStreamOggVorbis::2393776648078369149::1764776242::1764776296::1::::<><><>0<>0<>3135e7b9411e909d055ed938f57472f6<>res://.godot/imported/BurningMemory.ogg-0838819b1dc7f57d5e0b289535ff64ef.oggvorbisstr::
-MiiRemix.ogg::AudioStreamOggVorbis::8257351002975224503::1764776242::1764776296::1::::<><><>0<>0<>70fe3ceb9eb4857a31e4a6a9999c1b75<>res://.godot/imported/MiiRemix.ogg-3dac8029f2fd81054369e9fab1b3c911.oggvorbisstr::
-::res://Assets/Character/::1764776241
-::res://Assets/Character/spark/::1764776296
-spark.png::CompressedTexture2D::6613167585556456304::1764776241::1764776296::1::::<><><>0<>0<>47ff20c8a0d6aa2ccd8882457164aea9<>res://.godot/imported/spark.png-78574aa2aedfb8f16f44e43b96dee2aa.ctex::
-::res://Assets/fonts/::1764776243
-::res://Assets/fonts/dark/::1764776296
-frame.png::CompressedTexture2D::806547135765946467::1764776242::1764776296::1::::<><><>0<>0<>2c5da81aa0096f45bca7265e3ff8d0ac<>res://.godot/imported/frame.png-20cb31aa530b5c5eeaaa0a0181c7f139.ctex::
-::res://Assets/fonts/dark/default/::1764776296
-ascii.png::CompressedTexture2D::6675713333593109960::1764776242::1764776296::1::::<><><>0<>0<>97b0655b21be31dd069146993c1dcb94<>res://.godot/imported/ascii.png-a238d1825474b3d2ec7487de376f09a8.ctex::
-::res://Assets/fonts/dark/default caps slant/::1764776296
-ascii.png::CompressedTexture2D::755153416030286371::1764776242::1764776296::1::::<><><>0<>0<>93b569675ba5591be508772b6b57791e<>res://.godot/imported/ascii.png-516bf83bfa24bfbc2a46445dc56a2efd.ctex::
-::res://Assets/fonts/dark/default caps thick/::1764776296
-ascii.png::CompressedTexture2D::6265985020224511331::1764776242::1764776296::1::::<><><>0<>0<>4523f59706e5e8145eba486cf3ee5427<>res://.godot/imported/ascii.png-77b2766d1951d96b83f3fc380adff6df.ctex::
-::res://Assets/fonts/dark/default caps tiny/::1764776296
-ascii.png::CompressedTexture2D::3565968738398042327::1764776242::1764776296::1::::<><><>0<>0<>962678482055b58708a081a7c9151336<>res://.godot/imported/ascii.png-0713b18d1639d4e0f23e47dcda9aa669.ctex::
-::res://Assets/fonts/dark/default low slant/::1764776296
-ascii.png::CompressedTexture2D::7963964713038468479::1764776242::1764776296::1::::<><><>0<>0<>582c592e2abeb16f4d7ebc4e1f83c469<>res://.godot/imported/ascii.png-1548a42c87654d3cdd135c0eefc23f92.ctex::
-::res://Assets/fonts/dark/default low thick/::1764776296
-ascii.png::CompressedTexture2D::957475898666249004::1764776242::1764776296::1::::<><><>0<>0<>fa38d1207e4c01a97bd6db4f1f3a83ed<>res://.godot/imported/ascii.png-c29c691a9699a39846afb44b0a62efe0.ctex::
-::res://Assets/fonts/dark/default low tiny/::1764776296
-ascii.png::CompressedTexture2D::2307433141532066938::1764776242::1764776296::1::::<><><>0<>0<>05415f7176bb42aaeec82db64155f658<>res://.godot/imported/ascii.png-0fe8ff1cc4254b65659993e93e558f9e.ctex::
-::res://Assets/fonts/dark/frengertype/::1764776296
-ascii.png::CompressedTexture2D::5046410415453123268::1764776242::1764776296::1::::<><><>0<>0<>7fa507f7ee9b13e1431af032291c444d<>res://.godot/imported/ascii.png-4b3f78e18087ef687369d6683a5b015c.ctex::
-::res://Assets/fonts/dark/slant/::1764776296
-ascii.png::CompressedTexture2D::7675519510231391753::1764776242::1764776296::1::::<><><>0<>0<>74fd8460e89d942b9f37255718ef9596<>res://.godot/imported/ascii.png-9bfa9bf7dc470ea005744ec924ea0251.ctex::
-::res://Assets/fonts/dark/thick/::1764776296
-ascii.png::CompressedTexture2D::1070764146624771308::1764776242::1764776296::1::::<><><>0<>0<>14dc4ecc9475aeab189adf87790f554c<>res://.godot/imported/ascii.png-e81a5bd4f357a5c8ab2d4f432a5c9915.ctex::
-::res://Assets/fonts/dark/tiny/::1764776296
-ascii.png::CompressedTexture2D::5571513478250922764::1764776242::1764776296::1::::<><><>0<>0<>d088677906216558234b24b297b03400<>res://.godot/imported/ascii.png-d99533be27dd66647eabb408f686cad5.ctex::
-::res://Assets/fonts/gothicvania/::1764776296
-overview.PNG::CompressedTexture2D::3631434772098650071::1764776242::1764776296::1::::<><><>0<>0<>074efb6f113b06c3e439769aa8cac841<>res://.godot/imported/overview.PNG-2e0a3f44aacfdf24c6885904582c41bf.ctex::
-::res://Assets/fonts/gothicvania/architect-s-daughter/::1764776296
-Architects Daughter SIL OFL Font License.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-ArchitectsDaughter32.tres::FontFile::-1::1764776242::0::1::::<><><>0<>0<><>::res://fonts/architect-s-daughter/ArchitectsDaughter.ttf
-ArchitectsDaughter.ttf::FontFile::8398564844780780790::1764776242::1764776296::1::::<><><>0<>0<>6280e6cba6f050d8a268d5ce538dd32e<>res://.godot/imported/ArchitectsDaughter.ttf-7d2e7f8bc915729b60eb76ef4f1a748f.fontdata::
-::res://Assets/fonts/gothicvania/cmu-typewriter/::1764776242
-Typewriter.tres::FontFile::-1::1764776242::0::1::::<><><>0<>0<><>::res://fonts/cmu-typewriter/Typewriter/cmuntt.ttf
-::res://Assets/fonts/gothicvania/cmu-typewriter/Typewriter/::1764776296
-cmunit.ttf::FontFile::1029590010058013037::1764776242::1764776296::1::::<><><>0<>0<>a46ea43ebfcffbbee83aa8da278b389d<>res://.godot/imported/cmunit.ttf-6f812e360b470d5ec726928e207bdb01.fontdata::
-cmuntb.ttf::FontFile::1352472141148006974::1764776242::1764776296::1::::<><><>0<>0<>ba07e6656334d8a45396758961273308<>res://.godot/imported/cmuntb.ttf-e07ad0831b9b6326e123aee63698bd80.fontdata::
-cmuntt.ttf::FontFile::5358298218693375961::1764776242::1764776296::1::::<><><>0<>0<>2d4a212b9a175e152d75473451112b38<>res://.godot/imported/cmuntt.ttf-0893de106ac6605db81401a5715d0200.fontdata::
-cmuntx.ttf::FontFile::3462809732688488322::1764776242::1764776296::1::::<><><>0<>0<>0e015029d3b4783301a2e3dd6b750358<>res://.godot/imported/cmuntx.ttf-a46dc8c77bf94db1a3fe848a226fc57a.fontdata::
-OFL-FAQ.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-OFL.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-README.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/connection/::1764776296
-Connection.otf::FontFile::403429759850613202::1764776242::1764776296::1::::<><><>0<>0<>d60004f65fd03e4402e0c5122b05003e<>res://.godot/imported/Connection.otf-72fdf11180b7bab3ab186c2dce0e3e51.fontdata::
-ConnectionBold.otf::FontFile::7982592139221197556::1764776242::1764776296::1::::<><><>0<>0<>7720b856a85b5570c608743abbb91097<>res://.godot/imported/ConnectionBold.otf-6e09da0a0a35d9da07e39de9237957aa.fontdata::
-SIL Open Font License.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/connection_ii/::1764776296
-ConnectionII.otf::FontFile::4505073232986838918::1764776242::1764776296::1::::<><><>0<>0<>379069304c08b861dd0545e48dea88b0<>res://.godot/imported/ConnectionII.otf-b760896b6f39d2d5400664c37013888b.fontdata::
-ConnectionII.tres::FontFile::-1::1764776242::0::1::::<><><>0<>0<><>::res://fonts/connection_ii/ConnectionII.otf
-SIL Open Font License.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/droid-sans/::1764776296
-Apache License.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-DroidSans-Bold.ttf::FontFile::7814547668594265648::1764776242::1764776296::1::::<><><>0<>0<>e10146b6c720289e7e5a2b97950eee88<>res://.godot/imported/DroidSans-Bold.ttf-4331661df8a99232bb41ef70c7eb7fd9.fontdata::
-DroidSans.tres::FontFile::-1::1764776242::0::1::::<><><>0<>0<><>::res://fonts/droid-sans/DroidSans.ttf
-DroidSans.ttf::FontFile::3621415634843589305::1764776242::1764776296::1::::<><><>0<>0<>49811341db7666b210a156ce1438c284<>res://.godot/imported/DroidSans.ttf-c90a1f6d836c05532b0fb4967347b628.fontdata::
-::res://Assets/fonts/gothicvania/kirifont/::1764776296
-KiriFont.otf::FontFile::150626469502937994::1764776242::1764776296::1::::<><><>0<>0<>ef1b58b9cf182eae94977c707ae4f76a<>res://.godot/imported/KiriFont.otf-480829ae360420b91c7e8cf7f2b4d8da.fontdata::
-Kirifont.tres::FontFile::-1::1764776242::0::1::::<><><>0<>0<><>::res://fonts/kirifont/KiriFont.otf
-KiriFont.ttf::FontFile::2923615389703432869::1764776242::1764776296::1::::<><><>0<>0<>be316031934b0dc402a20735eb4c1f9a<>res://.godot/imported/KiriFont.ttf-790a7b6bb173ffa78f1ddac182695300.fontdata::
-OFL.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/linux-libertine/::1764776242
-LinuxLibertine.tres::FontFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/linux-libertine/LinLibertine_5.3.0_2012_07_02/::1764776242
-::res://Assets/fonts/gothicvania/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/::1764776296
-Bugs.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-ChangeLog.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-GPL.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-INSTALL.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-LICENCE.txt::TextFile::-1::1764776242::0::1::::<><><>0<>0<><>::
-LinLibertine_DR.otf::FontFile::5028990032339294575::1764776242::1764776296::1::::<><><>0<>0<>248aab0eae78c650077e61d73841d810<>res://.godot/imported/LinLibertine_DR.otf-09f693483603336854b095e40ba6ef46.fontdata::
-LinLibertine_I.otf::FontFile::8775130952447785101::1764776242::1764776296::1::::<><><>0<>0<>b589c8477c22bfe114746e61647188f2<>res://.godot/imported/LinLibertine_I.otf-fb94a1e7b93fdb3279ce7364ae177d74.fontdata::
-LinLibertine_M.otf::FontFile::6525185515874148671::1764776242::1764776296::1::::<><><>0<>0<>4e3ee1003f9e01c21963c7ce496c62af<>res://.godot/imported/LinLibertine_M.otf-40ac2c18648c492e29b96cce9854e3f2.fontdata::
-LinLibertine_R.otf::FontFile::8154368459113466168::1764776242::1764776296::1::::<><><>0<>0<>e22d7a96c4be5edfcaf002f3b15e28e5<>res://.godot/imported/LinLibertine_R.otf-c11258ec9811eae018bbfca73790fcbd.fontdata::
-LinLibertine_RB.otf::FontFile::752718016475062819::1764776242::1764776296::1::::<><><>0<>0<>5109c222d507d0a95a7c521f7ced2667<>res://.godot/imported/LinLibertine_RB.otf-5e864ff23ae937daf3eaba8aec6fa7a3.fontdata::
-LinLibertine_RBI.otf::FontFile::954745830784617908::1764776242::1764776296::1::::<><><>0<>0<>75a74b81472d3596629071e2967aeca0<>res://.godot/imported/LinLibertine_RBI.otf-5f8d8fd2f3442a4291808a636536f932.fontdata::
-LinLibertine_RI.otf::FontFile::2484139535524386666::1764776242::1764776296::1::::<><><>0<>0<>f9109d39112ca1e3c6761cf6db9a065d<>res://.godot/imported/LinLibertine_RI.otf-d8c9d7f45c73447f0b3f621c2733d12d.fontdata::
-LinLibertine_RZ.otf::FontFile::943152759705834159::1764776243::1764776296::1::::<><><>0<>0<>34fbe2feb1c47cd5e876d63daa07053a<>res://.godot/imported/LinLibertine_RZ.otf-c3ec5ec02a5c8219c5df73508b8a2687.fontdata::
-LinLibertine_RZI.otf::FontFile::3071493309472743561::1764776243::1764776296::1::::<><><>0<>0<>7dce24848264da28d2bad1f5682bae06<>res://.godot/imported/LinLibertine_RZI.otf-002dfebd4c80a92bd882a813bbd15c5f.fontdata::
-OFL-1.1.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-Readme-TEX.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-ToDo.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/montreal/::1764776296
-Montreal-Bold.ttf::FontFile::425777662755327652::1764776243::1764776296::1::::<><><>0<>0<>7919c3b3b83400c2d2f27b9030cbb9f5<>res://.godot/imported/Montreal-Bold.ttf-46177d5d4f11c9e23aea2f27ad120e4e.fontdata::
-Montreal-Regular.ttf::FontFile::6517679671158639456::1764776243::1764776296::1::::<><><>0<>0<>db435aa7c3e5486a1d456dc076c08c62<>res://.godot/imported/Montreal-Regular.ttf-bb47c2d9ea49fa4d4eeba1973a203ed4.fontdata::
-Montreal.tres::FontFile::-1::1764776243::0::1::::<><><>0<>0<><>::res://fonts/montreal/Montreal-Regular.ttf
-OFL.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/poco/::1764776296
-CC BY 4.0.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-Poco.tres::FontFile::-1::1764776243::0::1::::<><><>0<>0<><>::res://fonts/poco/Poco.ttf
-Poco.ttf::FontFile::6209935799562011095::1764776243::1764776296::1::::<><><>0<>0<>b49613d78d14965733ac47a053a9dfaa<>res://.godot/imported/Poco.ttf-9ce9a8fedce171687270d8d820cf4ef1.fontdata::
-::res://Assets/fonts/gothicvania/source-code-pro/::1764776243
-SourceCodePro.tres::FontFile::-1::1764776243::0::1::::<><><>0<>0<><>::res://fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Regular.ttf
-::res://Assets/fonts/gothicvania/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/::1764776243
-LICENSE.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/::1764776296
-SourceCodePro-Black.ttf::FontFile::367765769033430014::1764776243::1764776296::1::::<><><>0<>0<>048e57a01b08bfdf4679f240bccbd71c<>res://.godot/imported/SourceCodePro-Black.ttf-b8d0dbf088f812268aae15dfc61752ce.fontdata::
-SourceCodePro-BlackIt.ttf::FontFile::5593810199082785587::1764776243::1764776296::1::::<><><>0<>0<>13a39d4dbf45cfd19afebd8af014b9f5<>res://.godot/imported/SourceCodePro-BlackIt.ttf-4024704b653a137ac9f27ee0a0460b55.fontdata::
-SourceCodePro-Bold.ttf::FontFile::7336918520605949828::1764776243::1764776296::1::::<><><>0<>0<>8ae5b28c4816d8d14fed8c9c1424ee30<>res://.godot/imported/SourceCodePro-Bold.ttf-4bce349dae540e2efd3afc05f69db610.fontdata::
-SourceCodePro-BoldIt.ttf::FontFile::3472102497313076052::1764776243::1764776296::1::::<><><>0<>0<>6d702cfb51d82ce314a9fab20517ca9d<>res://.godot/imported/SourceCodePro-BoldIt.ttf-5cbd8b7da2bb65dd99cef7bf11837d27.fontdata::
-SourceCodePro-ExtraLight.ttf::FontFile::5695975442002780492::1764776243::1764776296::1::::<><><>0<>0<>df2f480c97ac5b8ba12b4f2e1949adb0<>res://.godot/imported/SourceCodePro-ExtraLight.ttf-254879d727bd990863e20802a4a32d23.fontdata::
-SourceCodePro-ExtraLightIt.ttf::FontFile::5980806014310104933::1764776243::1764776296::1::::<><><>0<>0<>b4f0ed854486b2ce39ed180f8ba24266<>res://.godot/imported/SourceCodePro-ExtraLightIt.ttf-6193d3a41495f2f4412dabdae1d2c947.fontdata::
-SourceCodePro-It.ttf::FontFile::3812998300551454835::1764776243::1764776296::1::::<><><>0<>0<>1cf25614fab86c465afb4fe92c6269af<>res://.godot/imported/SourceCodePro-It.ttf-b13ef4b3b79cb7778e553e611f2136ec.fontdata::
-SourceCodePro-Light.ttf::FontFile::502036694212102169::1764776243::1764776296::1::::<><><>0<>0<>528c3b7f2cebac5daf6f04e4db6c27fd<>res://.godot/imported/SourceCodePro-Light.ttf-c151d2e378799f54ffd915c838715b4f.fontdata::
-SourceCodePro-LightIt.ttf::FontFile::1442398869545383636::1764776243::1764776296::1::::<><><>0<>0<>6bafc3ba66c9355759ec5a2433342071<>res://.godot/imported/SourceCodePro-LightIt.ttf-47f4f7735c1822aaf343c177f82af11e.fontdata::
-SourceCodePro-Medium.ttf::FontFile::8566872353574923527::1764776243::1764776296::1::::<><><>0<>0<>87ded24ecec3dad386c0d13a0382a8dd<>res://.godot/imported/SourceCodePro-Medium.ttf-7cb9246104b8375274884cdaa55c725b.fontdata::
-SourceCodePro-MediumIt.ttf::FontFile::2401767499654779785::1764776243::1764776296::1::::<><><>0<>0<>f59293df5559dc6644c1e72335efdaf4<>res://.godot/imported/SourceCodePro-MediumIt.ttf-3e7d91bcddba89ab294199377b74b825.fontdata::
-SourceCodePro-Regular.ttf::FontFile::4943984168897081721::1764776243::1764776296::1::::<><><>0<>0<>469b8c335771a393ef8b07b5fe7b4492<>res://.godot/imported/SourceCodePro-Regular.ttf-b422b81a79be06f8893bbf27c77a303f.fontdata::
-SourceCodePro-Semibold.ttf::FontFile::3592495160322370769::1764776243::1764776296::1::::<><><>0<>0<>5309422e643ffc67fc9c1f3d859d80bf<>res://.godot/imported/SourceCodePro-Semibold.ttf-6a10f9fe78890b99e86efd78cfffd103.fontdata::
-SourceCodePro-SemiboldIt.ttf::FontFile::6567865249649907798::1764776243::1764776296::1::::<><><>0<>0<>e3cc6d02e47eba9c813be14f87c896dc<>res://.godot/imported/SourceCodePro-SemiboldIt.ttf-ef637864d48ca171748dfbcd82b37252.fontdata::
-::res://Assets/fonts/gothicvania/xolonium/::1764776243
-Xolonium.tres::FontFile::-1::1764776243::0::1::::<><><>0<>0<><>::res://fonts/xolonium/xolonium-fonts-4.1/ttf/Xolonium-Regular.ttf
-::res://Assets/fonts/gothicvania/xolonium/xolonium-fonts-4.1/::1764776243
-FONTLOG.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-LICENSE.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-::res://Assets/fonts/gothicvania/xolonium/xolonium-fonts-4.1/ttf/::1764776296
-Xolonium-Bold.ttf::FontFile::7512363264678591572::1764776243::1764776296::1::::<><><>0<>0<>c38b53bd18f1b60d521c5046cb992b77<>res://.godot/imported/Xolonium-Bold.ttf-89ad62363104d4e5e2775dd455d3a1ad.fontdata::
-Xolonium-Regular.ttf::FontFile::8704205880246931328::1764776243::1764776296::1::::<><><>0<>0<>ebf4f68432e83fe0390d0fbd23abb6c1<>res://.godot/imported/Xolonium-Regular.ttf-52d335628644f01ca4bc547c701c5133.fontdata::
-::res://Assets/fonts/light/::1764776296
-frame.png::CompressedTexture2D::4631294279575996491::1764776243::1764776296::1::::<><><>0<>0<>9758bf836bb2b0a253ec7c9765226ed8<>res://.godot/imported/frame.png-feddd0e7470dabe0f66956fcf2d809db.ctex::
-::res://Assets/fonts/light/default/::1764776296
-ascii.png::CompressedTexture2D::6456663351764391068::1764776243::1764776296::1::::<><><>0<>0<>914573e099eb9a6a1d2b0fbfeeb8b5cc<>res://.godot/imported/ascii.png-3675d3e6b18b5214ce835d7c01184ff1.ctex::
-::res://Assets/fonts/light/default caps slant/::1764776296
-ascii.png::CompressedTexture2D::482122206007588996::1764776243::1764776296::1::::<><><>0<>0<>bb9632f6256225a11a4ea6c11df2da4f<>res://.godot/imported/ascii.png-cc4d883198961a43cd4291b26dc54af5.ctex::
-::res://Assets/fonts/light/default caps thick/::1764776296
-ascii.png::CompressedTexture2D::5040207825522978537::1764776243::1764776296::1::::<><><>0<>0<>e4d67e0153ae210041ea7e8cdded86a7<>res://.godot/imported/ascii.png-91813ef9ed262ca7df8147ea5f74cb5b.ctex::
-::res://Assets/fonts/light/default caps tiny/::1764776296
-ascii.png::CompressedTexture2D::6162670719227234528::1764776243::1764776296::1::::<><><>0<>0<>c34f2ad01e8cfef87474cf861f74ad5e<>res://.godot/imported/ascii.png-613c1c3bee489081dc560958f34cb437.ctex::
-::res://Assets/fonts/light/default low slant/::1764776296
-ascii.png::CompressedTexture2D::7637798712926188401::1764776243::1764776296::1::::<><><>0<>0<>73f25f10a5f51f127813cbecc42b3306<>res://.godot/imported/ascii.png-19b4aca3f9a339b44c66d8dd5764f21f.ctex::
-::res://Assets/fonts/light/default low thick/::1764776296
-ascii.png::CompressedTexture2D::6573081365046493483::1764776243::1764776296::1::::<><><>0<>0<>ac8383318da9e3e3aa0710982db77e28<>res://.godot/imported/ascii.png-5b3cde040ceace3e635644047e0ba187.ctex::
-::res://Assets/fonts/light/default low tiny/::1764776296
-ascii.png::CompressedTexture2D::84019324794657160::1764776243::1764776296::1::::<><><>0<>0<>6a9ae4792e3cca6fa734a89fb96e60ea<>res://.godot/imported/ascii.png-7fbe7ac4987819ef90185182b7c05464.ctex::
-::res://Assets/fonts/light/frengertype/::1764776296
-ascii.png::CompressedTexture2D::6370725629773779852::1764776243::1764776296::1::::<><><>0<>0<>fe918d06c143abde9ea75131c51c4623<>res://.godot/imported/ascii.png-2ddaf76495f958ed0e73c7c95cf8fb3e.ctex::
-::res://Assets/fonts/light/slant/::1764776296
-ascii.png::CompressedTexture2D::5360926161405753022::1764776243::1764776296::1::::<><><>0<>0<>c48cab751d915bcf3687cd8b2e4338a0<>res://.godot/imported/ascii.png-509b4eb1c0fa32553fb2858f998381aa.ctex::
-::res://Assets/fonts/light/thick/::1764776296
-ascii.png::CompressedTexture2D::5786831688078183239::1764776243::1764776296::1::::<><><>0<>0<>5336d82754e000a053da8b6dee97a030<>res://.godot/imported/ascii.png-22f4934f54e46c9cfcc5a871743f1eea.ctex::
-::res://Assets/fonts/light/tiny/::1764776296
-ascii.png::CompressedTexture2D::4249501377788295679::1764776243::1764776296::1::::<><><>0<>0<>92244b51cf89fcc801b4a4b2b06f42c8<>res://.godot/imported/ascii.png-2929258f172e0bb2ea297546fb6fa7ba.ctex::
-::res://Assets/fonts/pixel/::1764776296
-PixelGame-R9AZe.otf::FontFile::4981144917957731288::1764776243::1764776296::1::::<><><>0<>0<>8c0ed748ba42924ae15194f79a049874<>res://.godot/imported/PixelGame-R9AZe.otf-d24415f132b7c4a530d3aed633ff73fa.fontdata::
-PixelGameExtrude-BLqwn.otf::FontFile::5180454823024984391::1764776243::1764776296::1::::<><><>0<>0<>b19406ff9c48d8ff2559e6d120592dbd<>res://.godot/imported/PixelGameExtrude-BLqwn.otf-3428fde3db2ad9bd5c521717df318af0.fontdata::
-::res://Assets/fonts/pixeled/::1764776296
-04B_30__.TTF::FontFile::8876773091917885663::1764776243::1764776296::1::::<><><>0<>0<>5e653993ed6cd84393c602ebc23fb9f3<>res://.godot/imported/04B_30__.TTF-e9392f1095bea832d93a3869be9cc94f.fontdata::
-::res://Assets/fonts/upheaval/::1764776296
-upheaval.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-upheavtt.ttf::FontFile::6904854216491065346::1764776243::1764776296::1::::<><><>0<>0<>8c896f896968f30993cae1c8386d8795<>res://.godot/imported/upheavtt.ttf-e6b4e20b03a941871edf836a08c4dd6f.fontdata::
-::res://Assets/Ghosts/::1764776296
-monster-ghost-11variations.png::CompressedTexture2D::7348500695347503284::1764776241::1764776296::1::::<><><>0<>0<>a8334765bb115d320546b46b58b8f34e<>res://.godot/imported/monster-ghost-11variations.png-89c2f3f215279176008201a47374e0f1.ctex::
-::res://Assets/gothicvania-cemetery-files/::1764776243
-public-license.txt::TextFile::-1::1764776243::0::1::::<><><>0<>0<><>::
-::res://Assets/gothicvania-cemetery-files/demo/::1764776243
-::res://Assets/gothicvania-cemetery-files/demo/assets/::1764776244
-::res://Assets/gothicvania-cemetery-files/demo/assets/atlas/::1764776296
-atlas-props.json::JSON::-1::1764776243::0::1::::<><><>0<>0<><>::
-atlas-props.png::CompressedTexture2D::7809225750586595313::1764776243::1764776296::1::::<><><>0<>0<>bc390a06dfd5a6a6cfff8fbb441ce7f6<>res://.godot/imported/atlas-props.png-b3b8646eea2ea0981274f6456da91fcb.ctex::
-atlas.json::JSON::-1::1764776243::0::1::::<><><>0<>0<><>::
-atlas.png::CompressedTexture2D::6366217838609096381::1764776243::1764776296::1::::<><><>0<>0<>5bd4af072a939c66a9464a5fe102dc4a<>res://.godot/imported/atlas.png-ea00a40e1b3c57344e3666a933fc07bc.ctex::
-::res://Assets/gothicvania-cemetery-files/demo/assets/environment/::1764776296
-bg-graveyard.png::CompressedTexture2D::1467580086355368814::1764776243::1764776296::1::::<><><>0<>0<>3b3a0123d32e22d546e6ea0de8c17b5d<>res://.godot/imported/bg-graveyard.png-efad5cda3723d8f612cb76f188aa5dd4.ctex::
-bg-moon.png::CompressedTexture2D::6973263520420650260::1764776244::1764776296::1::::<><><>0<>0<>b39e4b07b400704e4280c177f5662b0b<>res://.godot/imported/bg-moon.png-5fbc4918d5a03416b9c4a132903635fb.ctex::
-bg-mountains.png::CompressedTexture2D::3435452406823776076::1764776244::1764776296::1::::<><><>0<>0<>fe12b078250c3b06065857e1c47ff745<>res://.godot/imported/bg-mountains.png-a9c4ec468f97b17fced24aadcf02fbc6.ctex::
-objects.png::CompressedTexture2D::2397782121450809774::1764776244::1764776296::1::::<><><>0<>0<>d1fff286a894636be9f5532a55b5140f<>res://.godot/imported/objects.png-da82470dfd6578245b7ac6b1b78a9e1a.ctex::
-tileset.png::CompressedTexture2D::4645818713166870612::1764776244::1764776296::1::::<><><>0<>0<>eb294c76ae2a28135e00714fd39851e2<>res://.godot/imported/tileset.png-83f1e2e87131d96dba603d3ca8f206de.ctex::
-::res://Assets/gothicvania-cemetery-files/demo/assets/maps/::1764776244
-map.json::JSON::-1::1764776244::0::1::::<><><>0<>0<><>::
-::res://Assets/gothicvania-cemetery-files/demo/assets/sounds/::1764776296
-attack.ogg::AudioStreamOggVorbis::3899909400270213211::1764776244::1764776296::1::::<><><>0<>0<>645efcc89d8182db79c20e17f1b35e3f<>res://.godot/imported/attack.ogg-a205ef3eaa0a6b2a87ea6d4d24e46d2d.oggvorbisstr::
-hurt.ogg::AudioStreamOggVorbis::6855239187938438198::1764776244::1764776296::1::::<><><>0<>0<>22a33aa19ad7a1ba7c4b6b6cc87007e8<>res://.godot/imported/hurt.ogg-2bee1f41efa1589485a857567c57aaad.oggvorbisstr::
-jump.ogg::AudioStreamOggVorbis::429210417419521646::1764776244::1764776296::1::::<><><>0<>0<>5d707e0bf3bcb17027522438ae8380c4<>res://.godot/imported/jump.ogg-326129f8a126f87e81bde69f69ed8661.oggvorbisstr::
-kill.ogg::AudioStreamOggVorbis::3290985375304499197::1764776244::1764776296::1::::<><><>0<>0<>84ee88ada680a54fd0b47777cedfb341<>res://.godot/imported/kill.ogg-2cee26659c0c7f1ab9a3f239fe6ae8da.oggvorbisstr::
-rise.ogg::AudioStreamOggVorbis::4014155050539888324::1764776244::1764776296::1::::<><><>0<>0<>8b1fc91f37eaaedd1042213166183d43<>res://.godot/imported/rise.ogg-cc9a6a3da9e9bc6b717df1a9ebe258ed.oggvorbisstr::
-sci_fi_platformer04_main_loop.ogg::AudioStreamOggVorbis::6374446912610222225::1764776244::1764776296::1::::<><><>0<>0<>5db77bac9007ed6527db52357e4e60b9<>res://.godot/imported/sci_fi_platformer04_main_loop.ogg-b4ca23aaf899835c0b2f5bf8a499b792.oggvorbisstr::
-::res://Assets/gothicvania-cemetery-files/demo/assets/sprites/::1764776296
-credits-text.png::CompressedTexture2D::7228454993007685752::1764776244::1764776296::1::::<><><>0<>0<>4f35f94cb6d719fea7af9b642d473d3c<>res://.godot/imported/credits-text.png-0a71f459a1edca50100920c88e1d9cfe.ctex::
-game-over.png::CompressedTexture2D::3064076570013189131::1764776244::1764776296::1::::<><><>0<>0<>6d9faf2340e99007c3a48478cf683048<>res://.godot/imported/game-over.png-4b6a082067f309cf09250e95bf5700a4.ctex::
-instructions.png::CompressedTexture2D::150636425156174371::1764776244::1764776296::1::::<><><>0<>0<>403b0f997478e013fade2dd025afa285<>res://.godot/imported/instructions.png-8c2a75536ac79cc29f8c6b0c5c4d308d.ctex::
-loading.png::CompressedTexture2D::1425679940468415197::1764776244::1764776296::1::::<><><>0<>0<>b825c820d38760518f49207e5863000c<>res://.godot/imported/loading.png-1b661bc482a121fc8ab0a3fdeb9cc387.ctex::
-press-enter-text.png::CompressedTexture2D::2389707381985625549::1764776244::1764776296::1::::<><><>0<>0<>acaef63bb1e01e38a4a7693468c6db39<>res://.godot/imported/press-enter-text.png-dc45e18e404e314971a6e206805f9ba6.ctex::
-title-screen.png::CompressedTexture2D::2267233896177852011::1764776244::1764776296::1::::<><><>0<>0<>b41148c7f164fafab7d8f04cc984b2ff<>res://.godot/imported/title-screen.png-69184c99371e83f8e3ce849a9c5d8bc2.ctex::
-::res://Assets/gothicvania-cemetery-files/GIFS/::1764776243
-::res://Assets/gothicvania-cemetery-files/GIFS/ghost/::1764776243
-::res://Assets/gothicvania-cemetery-files/GIFS/hell-gato/::1764776243
-::res://Assets/gothicvania-cemetery-files/GIFS/hero/::1764776243
-::res://Assets/gothicvania-cemetery-files/GIFS/misc/::1764776243
-::res://Assets/gothicvania-cemetery-files/GIFS/skeleton/::1764776243
-::res://Assets/gothicvania-cemetery-files/PNG/::1764776243
-::res://Assets/gothicvania-cemetery-files/PNG/Environment/::1764776297
-background.png::CompressedTexture2D::1126303004760164088::1764776243::1764776297::1::::<><><>0<>0<>3aa8dffa4cff8b8531eefb350e709bc2<>res://.godot/imported/background.png-5dbe8dfba7ab8c69fb8b788f1d13f76a.ctex::
-graveyard.png::CompressedTexture2D::5936761143916072039::1764776243::1764776297::1::::<><><>0<>0<>5d7ea548f147dd85518f7ffd5c1e012b<>res://.godot/imported/graveyard.png-e5498d55546c45dc98707b93a966dab2.ctex::
-mountains.png::CompressedTexture2D::7388263133250595497::1764776243::1764776297::1::::<><><>0<>0<>1ed5985880e07097fb9a2fb1566c04f1<>res://.godot/imported/mountains.png-c424f4bc2907ed60d7c0650946607721.ctex::
-objects.png::CompressedTexture2D::295715473792001720::1764776243::1764776297::1::::<><><>0<>0<>8bf8b1ed892a77d9886d4f0fba171968<>res://.godot/imported/objects.png-f43868598a71c579667a9c946ae6c376.ctex::
-tileset-sliced.png::CompressedTexture2D::4830446779288262531::1764776243::1764776297::1::::<><><>0<>0<>d526ec2f042a08e004c0f71f8a175b96<>res://.godot/imported/tileset-sliced.png-8644dc6609533e29f01a03fb79ad405a.ctex::
-tileset.png::CompressedTexture2D::3905450491837539300::1764776243::1764776297::1::::<><><>0<>0<>200d8d6aec975bc8e1177d39320f4c81<>res://.godot/imported/tileset.png-9475afd42a5d08f1625f66651e582a44.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Environment/sliced-objects/::1764776297
-bush-large.png::CompressedTexture2D::4033401598124119724::1764776243::1764776296::1::::<><><>0<>0<>b4bf593ce190abd15ac97f79a1fd97f2<>res://.godot/imported/bush-large.png-74d121654fc8e041fb442770f198992b.ctex::
-bush-small.png::CompressedTexture2D::4277352359216424198::1764776243::1764776296::1::::<><><>0<>0<>12a21ff535413836404ad08ec9c9aa7b<>res://.godot/imported/bush-small.png-635b3ba5677105eb517018b41b843dea.ctex::
-statue.png::CompressedTexture2D::1559480216880353064::1764776243::1764776296::1::::<><><>0<>0<>cad51a110fd4483f35990fcde9b5067c<>res://.godot/imported/statue.png-2a946fc0e4b86317b6b4ebc08c16ebf6.ctex::
-stone-1.png::CompressedTexture2D::7933999366491034710::1764776243::1764776296::1::::<><><>0<>0<>b64adc002f8157e4e0b2e0372394ccc3<>res://.godot/imported/stone-1.png-2a4d3336ec39097d7e9b0cea865b8919.ctex::
-stone-2.png::CompressedTexture2D::2001975181247794731::1764776243::1764776296::1::::<><><>0<>0<>22d066136e9b0bc6b778a8ae26f3483d<>res://.godot/imported/stone-2.png-ff30be9af19a71956a650e7eaf35bf2c.ctex::
-stone-3.png::CompressedTexture2D::1622732171274378999::1764776243::1764776296::1::::<><><>0<>0<>06128b97b96ea4ad5349df636f249a51<>res://.godot/imported/stone-3.png-7f7cd42a3c956d2317f0e4f8ed57f0ac.ctex::
-stone-4.png::CompressedTexture2D::8309629315557381268::1764776243::1764776296::1::::<><><>0<>0<>1773f0925f603fb0862a1a60ba3f4f64<>res://.godot/imported/stone-4.png-8cf7a862450dd3a6a0b0185978066f46.ctex::
-tree-1.png::CompressedTexture2D::6753006315239941992::1764776243::1764776296::1::::<><><>0<>0<>15713b700e937d1f377e635caa9350bf<>res://.godot/imported/tree-1.png-13668cf0819d969cc28cc48bc9ab19e5.ctex::
-tree-2.png::CompressedTexture2D::8354649956583956475::1764776243::1764776296::1::::<><><>0<>0<>2437d4146599026e171ad74226694c78<>res://.godot/imported/tree-2.png-6a3db1cff59f79c105b163b0b8b8859e.ctex::
-tree-3.png::CompressedTexture2D::5206821147194120195::1764776243::1764776297::1::::<><><>0<>0<>d9500d7880ed5c044b007213cd170673<>res://.godot/imported/tree-3.png-0d9330aff9fdeca94a640e06aba74a81.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/::1764776243
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/enemy-death/::1764776297
-enemy-death-1.png::CompressedTexture2D::1208877327027704710::1764776243::1764776297::1::::<><><>0<>0<>386a2b83a4e06a432a6fe2e89fd369be<>res://.godot/imported/enemy-death-1.png-c590c65defdf5ebbde1d31340ed97bbf.ctex::
-enemy-death-2.png::CompressedTexture2D::3581686023259540176::1764776243::1764776297::1::::<><><>0<>0<>fee7ec37d0bae26b9df3a7bf9d1329bc<>res://.godot/imported/enemy-death-2.png-acefc0b60963dd26af62c7a0e2cee6a5.ctex::
-enemy-death-3.png::CompressedTexture2D::4343910099068229694::1764776243::1764776297::1::::<><><>0<>0<>310185551685379c0f66f491cb13fa33<>res://.godot/imported/enemy-death-3.png-b86d7c8a6c503f603ee020e0a0030685.ctex::
-enemy-death-4.png::CompressedTexture2D::4947756941211505289::1764776243::1764776297::1::::<><><>0<>0<>d7af62e7ade3305939f38b4f94f7180c<>res://.godot/imported/enemy-death-4.png-052543fe2ff24e54f1314eec3c02bad5.ctex::
-enemy-death-5.png::CompressedTexture2D::7368614307550363771::1764776243::1764776297::1::::<><><>0<>0<>fb62072f510bc91fd1c6c2f8891ff233<>res://.godot/imported/enemy-death-5.png-d9610840dfe674158171671817066608.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/ghost/::1764776297
-ghost-1.png::CompressedTexture2D::2280624094765592709::1764776243::1764776297::1::::<><><>0<>0<>307f4dd2b334ac438909f20783fdfb03<>res://.godot/imported/ghost-1.png-58123ec49bee1dfb2133312fa07de90b.ctex::
-ghost-2.png::CompressedTexture2D::1621547520503761598::1764776243::1764776297::1::::<><><>0<>0<>d8cd5aaa8bd41803a7559e6ec59f7257<>res://.godot/imported/ghost-2.png-04783dd694b83ea577b53cb094afb203.ctex::
-ghost-3.png::CompressedTexture2D::6104323108594234763::1764776243::1764776297::1::::<><><>0<>0<>83b5231c599748e83160b557f0fa8f97<>res://.godot/imported/ghost-3.png-afcd474a533efd14b705092d198aa59a.ctex::
-ghost-4.png::CompressedTexture2D::93855520716180680::1764776243::1764776297::1::::<><><>0<>0<>842e0abd73f49a52f0d1b3d50943bb0c<>res://.godot/imported/ghost-4.png-b7a909afc011dc40bde251f4e7e9423a.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/ghost-halo/::1764776297
-ghost-halo-1.png::CompressedTexture2D::2313701503864512717::1764776243::1764776297::1::::<><><>0<>0<>2bfeafac75ac00235a2f944050dffefe<>res://.godot/imported/ghost-halo-1.png-8c66f8781a73c601904070166b8f8de6.ctex::
-ghost-halo-2.png::CompressedTexture2D::8251270907643008564::1764776243::1764776297::1::::<><><>0<>0<>a5e26c4f23f6f05e70a7f7e395a6a6ba<>res://.godot/imported/ghost-halo-2.png-c0065cc4e7d579a56b1f41e739778551.ctex::
-ghost-halo-3.png::CompressedTexture2D::3050277253216001462::1764776243::1764776297::1::::<><><>0<>0<>d6acdf6bb21f770d4879b4c29a03f220<>res://.godot/imported/ghost-halo-3.png-e897a5ec5387ddd17ca62b144bcde143.ctex::
-ghost-halo-4.png::CompressedTexture2D::6620853920058340004::1764776243::1764776297::1::::<><><>0<>0<>85ca5b48f3b546e4b34c6d27969f343e<>res://.godot/imported/ghost-halo-4.png-283f89456f1aec97a89b9711c4da2500.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hell-gato/::1764776297
-hell-gato-1.png::CompressedTexture2D::4269179775930231562::1764776243::1764776297::1::::<><><>0<>0<>9e47928fe5095d0a34f68d0f78fa0b2a<>res://.godot/imported/hell-gato-1.png-5a6ee9daf8f0e4af9a61b9872137eaea.ctex::
-hell-gato-2.png::CompressedTexture2D::257082401667796749::1764776243::1764776297::1::::<><><>0<>0<>584974225e361e4abcf0de243c13c0b0<>res://.godot/imported/hell-gato-2.png-934f61bd67457c154e1e114e5e1e4d24.ctex::
-hell-gato-3.png::CompressedTexture2D::3250547870335177015::1764776243::1764776297::1::::<><><>0<>0<>37af5b2df95c421192c005e6290af1c0<>res://.godot/imported/hell-gato-3.png-75bed74daa31e962cc1226f8e49cea95.ctex::
-hell-gato-4.png::CompressedTexture2D::2362191861533257289::1764776243::1764776297::1::::<><><>0<>0<>751e272fe586dc1ff88409fdc4237d1b<>res://.godot/imported/hell-gato-4.png-b071add58c8196e856db9d464bc11a68.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/::1764776243
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/hero-attack/::1764776297
-hero-attack-1.png::CompressedTexture2D::3841493383128853682::1764776243::1764776297::1::::<><><>0<>0<>11154b310f0d1695e18554ee996d8877<>res://.godot/imported/hero-attack-1.png-0515edcd1d5729467ba7d1192adc87cc.ctex::
-hero-attack-2.png::CompressedTexture2D::6270432179246202565::1764776243::1764776297::1::::<><><>0<>0<>015bd9122b0188df8c210b9b9c209699<>res://.godot/imported/hero-attack-2.png-e54167a8063dd25db1c264ea3fc51ff3.ctex::
-hero-attack-3.png::CompressedTexture2D::4957823160737681135::1764776243::1764776297::1::::<><><>0<>0<>396b51921c9b8afeeac841618f892928<>res://.godot/imported/hero-attack-3.png-9b5a89664aa22d17f77e09a402d5b147.ctex::
-hero-attack-4.png::CompressedTexture2D::7655822416187180018::1764776243::1764776296::1::::<><><>0<>0<>d061d2df63d56452d123d62b374b8a83<>res://.godot/imported/hero-attack-4.png-2538dd4d2f27c0e351a979120e673c71.ctex::
-hero-attack-5.png::CompressedTexture2D::1043728133114272368::1764776243::1764776296::1::::<><><>0<>0<>34db3765df71f96ace101846709019d0<>res://.godot/imported/hero-attack-5.png-6430f9fdadb797c3d8bb8b218bf3f2aa.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/hero-crouch/::1764776296
-hero-crouch.png::CompressedTexture2D::8678537605215979021::1764776243::1764776296::1::::<><><>0<>0<>f83dfe48c2deb837ac8d3ef377b9b532<>res://.godot/imported/hero-crouch.png-07a1bd7d0bc69b3b5bc2649804666bb6.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/hero-hurt/::1764776296
-hero-hurt.png::CompressedTexture2D::6300493390895873907::1764776243::1764776296::1::::<><><>0<>0<>618a61550a9e43dc6d0a48aa100b5ef6<>res://.godot/imported/hero-hurt.png-c1d97f76794c328f21b9f23696550f04.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/hero-idle/::1764776296
-hero-idle-1.png::CompressedTexture2D::4984364731416117600::1764776243::1764776296::1::::<><><>0<>0<>7c2eaa9bcba6b093bef9a45f99d3e1fe<>res://.godot/imported/hero-idle-1.png-2d98c49a2a30672a4e71e6e6afba7b8c.ctex::
-hero-idle-2.png::CompressedTexture2D::3646882363798365435::1764776243::1764776296::1::::<><><>0<>0<>b259b2de8305808df4acb50002b9a487<>res://.godot/imported/hero-idle-2.png-f9725ff32f108531849965ce518aedc6.ctex::
-hero-idle-3.png::CompressedTexture2D::5863039019971788751::1764776243::1764776296::1::::<><><>0<>0<>fb991b44a005aa59e60a1a4e9f7bf85e<>res://.godot/imported/hero-idle-3.png-c52d69179c404e25dad52aa6f91aac70.ctex::
-hero-idle-4.png::CompressedTexture2D::6673478147085162956::1764776243::1764776296::1::::<><><>0<>0<>f31816b613dd6f145c174868a945f765<>res://.godot/imported/hero-idle-4.png-57f0d6b4e82633d6c1b3bf547de74596.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/hero-jump/::1764776296
-hero-jump-1.png::CompressedTexture2D::1450006886173377254::1764776243::1764776296::1::::<><><>0<>0<>7daadc3531f5a36eb0efd47f3a85d34e<>res://.godot/imported/hero-jump-1.png-08c6f44ee39d2790ed7f11ee07a217ca.ctex::
-hero-jump-2.png::CompressedTexture2D::3880249515916534490::1764776243::1764776296::1::::<><><>0<>0<>4bfce6f3069e646de00e8ed0cc5b0b83<>res://.godot/imported/hero-jump-2.png-8f9b1132da57125a32a28e7cba1b6e5b.ctex::
-hero-jump-3.png::CompressedTexture2D::327152139216592631::1764776243::1764776296::1::::<><><>0<>0<>76879e90f3f062140d8125eb4f6867ca<>res://.godot/imported/hero-jump-3.png-81366a9d22204eec38d1990a2bfe2fb0.ctex::
-hero-jump-4.png::CompressedTexture2D::1609926699660101139::1764776243::1764776296::1::::<><><>0<>0<>4b18a5abcd1f9135ba666516fb339e52<>res://.godot/imported/hero-jump-4.png-36a6098d7d53f75bdb9026c34ff3cda4.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/hero/hero-run/::1764776296
-hero-run-1.png::CompressedTexture2D::3303475583442037465::1764776243::1764776296::1::::<><><>0<>0<>c3a29b06576799d532742da348190adb<>res://.godot/imported/hero-run-1.png-843217941cfea0ebdf447acc5c383409.ctex::
-hero-run-2.png::CompressedTexture2D::5665387583551170910::1764776243::1764776296::1::::<><><>0<>0<>fbfa71f654232559956274cd039be4bd<>res://.godot/imported/hero-run-2.png-ea7ce83eb277cfd893755922d6026928.ctex::
-hero-run-3.png::CompressedTexture2D::4528173773845840072::1764776243::1764776296::1::::<><><>0<>0<>0ca68e6a685b734c2b31e088892424bd<>res://.godot/imported/hero-run-3.png-dafd3171717ed1a7b4487e73db211ce0.ctex::
-hero-run-4.png::CompressedTexture2D::375823814792309416::1764776243::1764776296::1::::<><><>0<>0<>aca918ca5f826f5aac3e2b2f2fed1e48<>res://.godot/imported/hero-run-4.png-1dd3341e35e314f2dcfbe14123619184.ctex::
-hero-run-5.png::CompressedTexture2D::1566263867219496820::1764776243::1764776296::1::::<><><>0<>0<>05c1005735088e353547ab70ec24cbf1<>res://.godot/imported/hero-run-5.png-71ba029a76dda69e832b52a7fff0e2ee.ctex::
-hero-run-6.png::CompressedTexture2D::5914398397693334239::1764776243::1764776296::1::::<><><>0<>0<>dae9354e6ee726907751d932ced34266<>res://.godot/imported/hero-run-6.png-c3d05b9a3f83fae356ef77d881f88c6a.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/skeleton/::1764776296
-skeleton-1.png::CompressedTexture2D::1971139614086302125::1764776243::1764776296::1::::<><><>0<>0<>356d43317b1c744c08893e4c5b084b58<>res://.godot/imported/skeleton-1.png-61cb8afe846a09a1680c7a68784f2645.ctex::
-skeleton-2.png::CompressedTexture2D::8231384746675287279::1764776243::1764776296::1::::<><><>0<>0<>0368059816ec0f417e92abc81a4ed459<>res://.godot/imported/skeleton-2.png-3eacff0e1c09dd0cc790f0becfef2ecc.ctex::
-skeleton-3.png::CompressedTexture2D::1784848941726359462::1764776243::1764776296::1::::<><><>0<>0<>36713d504150bfa97713cc582cb66932<>res://.godot/imported/skeleton-3.png-c8b78d79157fd06788cfb6860c4a0592.ctex::
-skeleton-4.png::CompressedTexture2D::5731489317476262925::1764776243::1764776296::1::::<><><>0<>0<>d60fd5600a1e7be28116b3f4a4ff4b23<>res://.godot/imported/skeleton-4.png-c1baaa4ffc5df892682331ef863f11c8.ctex::
-skeleton-5.png::CompressedTexture2D::5303795561590284810::1764776243::1764776296::1::::<><><>0<>0<>d276f05f0ae9f2c153ba2f91eefffb64<>res://.godot/imported/skeleton-5.png-fac28c7f5953c60e42823ac9ec52d371.ctex::
-skeleton-6.png::CompressedTexture2D::3319621394762278401::1764776243::1764776296::1::::<><><>0<>0<>4b1ef3d8441081652b7ebc02c04d6d1e<>res://.godot/imported/skeleton-6.png-772746864341aa3d4a8204cfecdd0bcb.ctex::
-skeleton-7.png::CompressedTexture2D::6497631537073598301::1764776243::1764776296::1::::<><><>0<>0<>85c60e8bc4960cd0fb9b00006ef87705<>res://.godot/imported/skeleton-7.png-643ab9b9d7d28bfe99600d68ddcef413.ctex::
-skeleton-8.png::CompressedTexture2D::8744745776411969078::1764776243::1764776296::1::::<><><>0<>0<>9475e7f1d0d44b24246ded83abc4a349<>res://.godot/imported/skeleton-8.png-8194fe6ef77757f02b980a4a0edee27b.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/skeleton-clothed/::1764776296
-skeleton-clothed-1.png::CompressedTexture2D::6065216388517460371::1764776243::1764776296::1::::<><><>0<>0<>fc725c74aae8e7277716f8a3ee942bcd<>res://.godot/imported/skeleton-clothed-1.png-8ab5bbba7e44d419eb6430c146228e7c.ctex::
-skeleton-clothed-2.png::CompressedTexture2D::6104999959763238901::1764776243::1764776296::1::::<><><>0<>0<>37d2e407923fcd6ecb38d295f5b3acd7<>res://.godot/imported/skeleton-clothed-2.png-11c4f4aa5078124c1e8e8884d5e8bbdd.ctex::
-skeleton-clothed-3.png::CompressedTexture2D::2527604363463713213::1764776243::1764776296::1::::<><><>0<>0<>8ab4c3e3b8896180af7f4ec1bacd5587<>res://.godot/imported/skeleton-clothed-3.png-32b5b0b16b10518068d3e5460fa09625.ctex::
-skeleton-clothed-4.png::CompressedTexture2D::4904505952130209446::1764776243::1764776296::1::::<><><>0<>0<>fa66d0c9794b99cf4b5f5433913ade1e<>res://.godot/imported/skeleton-clothed-4.png-3f8e773787d99e9e887b8f632ffd01ef.ctex::
-skeleton-clothed-5.png::CompressedTexture2D::5350061978376742766::1764776243::1764776296::1::::<><><>0<>0<>22948ff0f9c930dde55afe05c70e29d0<>res://.godot/imported/skeleton-clothed-5.png-6a29e68f09b18ac63f27e4b276c89946.ctex::
-skeleton-clothed-6.png::CompressedTexture2D::8061278068805620508::1764776243::1764776296::1::::<><><>0<>0<>1f04a74baedf8f3a095dcbaa962a5b1a<>res://.godot/imported/skeleton-clothed-6.png-c83aa04b4229f726ad096a1f9fb36384.ctex::
-skeleton-clothed-7.png::CompressedTexture2D::5880393646957344111::1764776243::1764776296::1::::<><><>0<>0<>8c2401a2b6846970e924620c09ae7b59<>res://.godot/imported/skeleton-clothed-7.png-3848bb894c17d0172fc180057d810d8e.ctex::
-skeleton-clothed-8.png::CompressedTexture2D::7028864535876323646::1764776243::1764776296::1::::<><><>0<>0<>69d2ed8ec0f2a51634ba4ae1a609abaa<>res://.godot/imported/skeleton-clothed-8.png-bad0669c3894ffbba17cd31d854047b1.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/skeleton-rise/::1764776296
-skeleton-rise-1.png::CompressedTexture2D::6435828853375157201::1764776243::1764776296::1::::<><><>0<>0<>9bfeb17f0598a277bcb07834539bbde0<>res://.godot/imported/skeleton-rise-1.png-e70ff10d85969a0a8a8927cd90523822.ctex::
-skeleton-rise-2.png::CompressedTexture2D::1619811466185562490::1764776243::1764776296::1::::<><><>0<>0<>d34539ad5a89dcdbc960ce23c42aa2f4<>res://.godot/imported/skeleton-rise-2.png-22ea36500cee11df89e3c0d3cda00ca0.ctex::
-skeleton-rise-3.png::CompressedTexture2D::5660432456636660836::1764776243::1764776296::1::::<><><>0<>0<>9c71adb945b6672b6cd89849ddbc198e<>res://.godot/imported/skeleton-rise-3.png-9d7f41fce316f10c907ffa685b87676b.ctex::
-skeleton-rise-4.png::CompressedTexture2D::32314366363732622::1764776243::1764776296::1::::<><><>0<>0<>d21c47d7d5e02eacf7f43170b4482cb3<>res://.godot/imported/skeleton-rise-4.png-4d6656af18a75c8403aaf270c80fddcc.ctex::
-skeleton-rise-5.png::CompressedTexture2D::5445940228992041669::1764776243::1764776296::1::::<><><>0<>0<>ecf01a7d708e9812c083928eb73be8df<>res://.godot/imported/skeleton-rise-5.png-b418fecccfe7fa8310121014cc15884e.ctex::
-skeleton-rise-6.png::CompressedTexture2D::5739773381403404216::1764776243::1764776296::1::::<><><>0<>0<>c37ac168eab23768955c498574cf45ce<>res://.godot/imported/skeleton-rise-6.png-5db82e68ac7c53a8fd7e11ba84d37ce0.ctex::
-::res://Assets/gothicvania-cemetery-files/PNG/Sprites/skeleton-rise-clothed/::1764776296
-skeleton-rise-clothed-1.png::CompressedTexture2D::3048826916898639855::1764776243::1764776296::1::::<><><>0<>0<>b60372fb3a5b53c35f0e12e42ed606ae<>res://.godot/imported/skeleton-rise-clothed-1.png-fa0ac6718a82e8b124579d2c27dc0385.ctex::
-skeleton-rise-clothed-2.png::CompressedTexture2D::7934216622561469651::1764776243::1764776296::1::::<><><>0<>0<>1d8ced9c71de45832108c961641bb0c7<>res://.godot/imported/skeleton-rise-clothed-2.png-68fcfa7941e342ea057d28b30e5957d2.ctex::
-skeleton-rise-clothed-3.png::CompressedTexture2D::2351745961867933921::1764776243::1764776296::1::::<><><>0<>0<>426a3f75f3dc96553d630b56521b9cf1<>res://.godot/imported/skeleton-rise-clothed-3.png-c67939e966235e1030d8d12edd61b52a.ctex::
-skeleton-rise-clothed-4.png::CompressedTexture2D::1354680548812032341::1764776243::1764776296::1::::<><><>0<>0<>fae7527fca77bbf71262d8c1a6f565d7<>res://.godot/imported/skeleton-rise-clothed-4.png-37c6685ec700d1813093eb889fae65f7.ctex::
-skeleton-rise-clothed-5.png::CompressedTexture2D::4932568108495882700::1764776243::1764776296::1::::<><><>0<>0<>3f8747329aecd0aae19dfdf6a0abebf9<>res://.godot/imported/skeleton-rise-clothed-5.png-9f49d40e9ad534703d0fb638725378a5.ctex::
-skeleton-rise-clothed-6.png::CompressedTexture2D::7894355714075883991::1764776243::1764776296::1::::<><><>0<>0<>551163738b94b8a0ee16a798f83ab707<>res://.godot/imported/skeleton-rise-clothed-6.png-e63913f3314f0eb8a69c6cf221718484.ctex::
-::res://Assets/gothicvania-cemetery-files/PSD/::1764776243
-::res://Assets/gothicvania-cemetery-files/PSD/environment/::1764776243
-::res://Assets/gothicvania-cemetery-files/PSD/misc/::1764776243
-::res://Assets/gothicvania-cemetery-files/PSD/sprites/::1764776243
-::res://Assets/gothicvania-cemetery-files/PSD/sprites/hero/::1764776243
-::res://Assets/Menu Assets/::1764776297
-Menu Buttons sprite (BnW).png::CompressedTexture2D::8733416645163699876::1764776241::1764776297::1::::<><><>0<>0<>64e199900b8bc1dc064f1c053c56e99d<>res://.godot/imported/Menu Buttons sprite (BnW).png-ddcdd6773be8c622d7d6cd8d80acfd83.ctex::
-Menu Buttons sprite (Colored).png::CompressedTexture2D::837292214624347164::1764776241::1764776297::1::::<><><>0<>0<>fad13b91fab0e4683784e16e9bf06dba<>res://.godot/imported/Menu Buttons sprite (Colored).png-a91f61b90bef2ea13e4b4887d831ee06.ctex::
-::res://Assets/Menu Assets/Large Buttons/::1764776241
-::res://Assets/Menu Assets/Large Buttons/Colored Large Buttons/::1764776296
-Back  col_Button.png::CompressedTexture2D::7319323936285265206::1764776241::1764776296::1::::<><><>0<>0<>47f1c04a766c96a6d294bcc7b29df148<>res://.godot/imported/Back  col_Button.png-15176b538232f48f9e1605e3b872742a.ctex::
-Continue  col_Button.png::CompressedTexture2D::6959405936474194069::1764776241::1764776296::1::::<><><>0<>0<>ecff7facaab7db4002503f11f5a9787b<>res://.godot/imported/Continue  col_Button.png-5b23477ed4183cf08d1b249fe241c70c.ctex::
-Controls  col_Button.png::CompressedTexture2D::505423888122370822::1764776241::1764776296::1::::<><><>0<>0<>a04805133d6243825c072b02df69fc22<>res://.godot/imported/Controls  col_Button.png-9dfba0b9c5fd5ce16c64665bb56b2f8c.ctex::
-Exit  col_Button.png::CompressedTexture2D::8671611310445247371::1764776241::1764776296::1::::<><><>0<>0<>12eb1b3bb5b16117212f0bbfd70bd6f8<>res://.godot/imported/Exit  col_Button.png-9e3be6d1f9dbadcde8341275610fa08e.ctex::
-Load  col_Button.png::CompressedTexture2D::6903056030795728145::1764776241::1764776296::1::::<><><>0<>0<>ed0132fa62d12efe1e1836f80430ce0e<>res://.godot/imported/Load  col_Button.png-5350a309d7fefcc8f83e9c6dcf54197b.ctex::
-Menu  col_Button.png::CompressedTexture2D::8492727369363639932::1764776241::1764776296::1::::<><><>0<>0<>fc28ba5ab8e53e4a56c767a33fdb39d0<>res://.godot/imported/Menu  col_Button.png-f18aa23b756a88d775f68108f969451d.ctex::
-New Game  col_Button.png::CompressedTexture2D::2838567953954029999::1764776241::1764776296::1::::<><><>0<>0<>e42c3289f763a92adb4eec39e561e357<>res://.godot/imported/New Game  col_Button.png-f2c22f8834c3a73f005c46fde483acd2.ctex::
-Options  col_Button.png::CompressedTexture2D::8931023012448131573::1764776241::1764776296::1::::<><><>0<>0<>8ce78277252262570d2bd7bfe4508224<>res://.godot/imported/Options  col_Button.png-12913b0bb3f6d10ab6c25035d828c69c.ctex::
-Play col_Button.png::CompressedTexture2D::175553199822027136::1764776241::1764776296::1::::<><><>0<>0<>19801f7a6578847ff30dfa3ab7ebd2b2<>res://.godot/imported/Play col_Button.png-34a6ee93ee7b9c43ee8225e02e34cafb.ctex::
-Quit  col_Button.png::CompressedTexture2D::3517992675407920576::1764776241::1764776296::1::::<><><>0<>0<>bf6a20773b5aaa536c0438c1b865bdca<>res://.godot/imported/Quit  col_Button.png-192aab0bea780d0d48004e8460fd1943.ctex::
-Resume  col_Button.png::CompressedTexture2D::2800733752217425891::1764776241::1764776296::1::::<><><>0<>0<>01646fc6ac6dceafce3ab1daf577d7b0<>res://.godot/imported/Resume  col_Button.png-63a66a1f3574ec72bb41e28bc2208998.ctex::
-Settings  col_Button.png::CompressedTexture2D::6880362324468652717::1764776241::1764776296::1::::<><><>0<>0<>89ddd20e9de7f534c20bf370bbbb6d87<>res://.godot/imported/Settings  col_Button.png-314958dd0de0e7bb5be9b2b441f782ef.ctex::
-Start  col_Button.png::CompressedTexture2D::7585488357441460978::1764776241::1764776296::1::::<><><>0<>0<>e3c4af7d668dc9482de56afda0c63b4d<>res://.godot/imported/Start  col_Button.png-913a16979bc690b8b5b12b9edbc4c034.ctex::
-::res://Assets/Menu Assets/Large Buttons/Large Buttons/::1764776296
-Back Button.png::CompressedTexture2D::2190273550364945487::1764776241::1764776296::1::::<><><>0<>0<>a0cdf2030362a74d7ccf43b7ec7de76d<>res://.godot/imported/Back Button.png-9c9504cebf816dc871fbaaf2d8c914d6.ctex::
-Continue Button.png::CompressedTexture2D::1168373650945405477::1764776241::1764776296::1::::<><><>0<>0<>11f122c454db592841853a0e901d47d3<>res://.godot/imported/Continue Button.png-40f6a674a79aeee68d0c6ba6c09fb860.ctex::
-Controls Button.png::CompressedTexture2D::5402082441358982882::1764776241::1764776296::1::::<><><>0<>0<>90dc04dc736a88ffd00b26e7346f54cc<>res://.godot/imported/Controls Button.png-ebab774c22aa83bb6d09be2cb09e1e7d.ctex::
-Exit Button.png::CompressedTexture2D::2145031220142500307::1764776241::1764776296::1::::<><><>0<>0<>31cdc50cca2ef7efcfb1a1c5f5bfffe9<>res://.godot/imported/Exit Button.png-53e92b77f9db05b231103e3732bbc290.ctex::
-Load Button.png::CompressedTexture2D::2649955452374677425::1764776241::1764776296::1::::<><><>0<>0<>f0c66746c739855f81bf3da03209e178<>res://.godot/imported/Load Button.png-daa058a6c2d66c1b49d9d876aff3731b.ctex::
-Menu Button.png::CompressedTexture2D::5099410675431549447::1764776241::1764776296::1::::<><><>0<>0<>f55251ab0f3ae8fb62452e46c5b8c807<>res://.godot/imported/Menu Button.png-16babf6208637b81647294c0e1e2b150.ctex::
-New game Button.png::CompressedTexture2D::3869230754750968452::1764776241::1764776296::1::::<><><>0<>0<>cabc129ef82f05012aeb09e6706fc7a5<>res://.godot/imported/New game Button.png-08c97e35c83145ece15bdf78417c0896.ctex::
-Options Button.png::CompressedTexture2D::1463372214014184199::1764776241::1764776296::1::::<><><>0<>0<>bde34ab260f121280a25fcea46d5f9f3<>res://.godot/imported/Options Button.png-174c4c89261a5259477842508eb0930b.ctex::
-Play Button.png::CompressedTexture2D::4499262226089446623::1764776241::1764776296::1::::<><><>0<>0<>e7bb9f03b03a3d15b2472a1ceb01010f<>res://.godot/imported/Play Button.png-0141247160813ff0d79a318c289fbed4.ctex::
-Quit Button.png::CompressedTexture2D::3192026683709733808::1764776241::1764776296::1::::<><><>0<>0<>45ced453483f2f34e397ee8f80e61b36<>res://.godot/imported/Quit Button.png-4962183e0de691c8f73af392e57a39f8.ctex::
-Resume Button.png::CompressedTexture2D::6765201198598949081::1764776241::1764776296::1::::<><><>0<>0<>2575faac1bc2c3a5c0a41977f1b9279a<>res://.godot/imported/Resume Button.png-a3a5b9ce3816d4beebdf933133384c92.ctex::
-Settings Button.png::CompressedTexture2D::9093210749615336950::1764776241::1764776296::1::::<><><>0<>0<>4f99ad9ac516fc4c38983d0ada98fddd<>res://.godot/imported/Settings Button.png-1961b74aae98ad8638519bd4e6413f4a.ctex::
-Start Button.png::CompressedTexture2D::7728429304097107016::1764776241::1764776296::1::::<><><>0<>0<>f9dc2e4650ec928a0534b2fc1b490e4e<>res://.godot/imported/Start Button.png-3be25c94f864417c4a3aba353b061e98.ctex::
-::res://Assets/Menu Assets/Pixel UI 3/::1764776296
-00.png::CompressedTexture2D::8360510801351203463::1764776241::1764776296::1::::<><><>0<>0<>9b3a11ba7fe0654949a13a1b3a09b46c<>res://.godot/imported/00.png-cfa90e7e172cf1457b4592495f1af674.ctex::
-01.png::CompressedTexture2D::1998064220996049649::1764776241::1764776296::1::::<><><>0<>0<>8d7d9f9a8254f1b834a2d4ef317141e4<>res://.godot/imported/01.png-0fd1e156d3ec751ac01275301daa06ac.ctex::
-02.png::CompressedTexture2D::5916501246540895225::1764776241::1764776296::1::::<><><>0<>0<>03f9650c9df2085fdc8fcdc14fbc8271<>res://.godot/imported/02.png-c7de71eabed56c0526c0547b2424f139.ctex::
-03.png::CompressedTexture2D::7185041648914190784::1764776241::1764776296::1::::<><><>0<>0<>4a1b4e4d48d432da9e4cbab0ed876997<>res://.godot/imported/03.png-a96939114aab8b8e43f0835ab528efa8.ctex::
-04.png::CompressedTexture2D::4360903675611900452::1764776241::1764776296::1::::<><><>0<>0<>0373648e046fbb5069716563a09e9fcc<>res://.godot/imported/04.png-9048a0a01afacdab8ec412748bef32d8.ctex::
-05.png::CompressedTexture2D::6641301509731703043::1764776241::1764776296::1::::<><><>0<>0<>af11e76d179d796da8b8e09571cfbd1b<>res://.godot/imported/05.png-8539feb66e259b9752c772830f36721e.ctex::
-06.png::CompressedTexture2D::539853372598433627::1764776241::1764776296::1::::<><><>0<>0<>8ec039d8af4fe17f8b073165e03d23b9<>res://.godot/imported/06.png-d89c49ee8030a6f8b7443c195ff49fa4.ctex::
-07.png::CompressedTexture2D::7570250505332614195::1764776241::1764776296::1::::<><><>0<>0<>3fba6ed9a95dcef4a63dc59cb4a9fc7b<>res://.godot/imported/07.png-db5aa7d43ce2193491f512caaf4005c3.ctex::
-All.png::CompressedTexture2D::6497648763126149431::1764776241::1764776296::1::::<><><>0<>0<>9fd2d742c09f52c34279437af782455b<>res://.godot/imported/All.png-b9b1ad1faaa4fc4e1b7354fb70f87be1.ctex::
-::res://Assets/Menu Assets/Skill Icons Cyberpunk/::1764776296
-Coupon by craftpix.pdf.png::CompressedTexture2D::2750178517540322951::1764776241::1764776296::1::::<><><>0<>0<>174d31ce38e6d7aab542fad5dddc7394<>res://.godot/imported/Coupon by craftpix.pdf.png-709e2b56346c6dadb766c1d5047f6f86.ctex::
-Font.txt::TextFile::-1::1764776241::0::1::::<><><>0<>0<><>::
-License.txt::TextFile::-1::1764776241::0::1::::<><><>0<>0<><>::
-::res://Assets/Menu Assets/Skill Icons Cyberpunk/2 Frames/::1764776296
-Frameset.png::CompressedTexture2D::9087713322003946057::1764776241::1764776296::1::::<><><>0<>0<>b1cddc5ac632373aa3c4025db68f2911<>res://.godot/imported/Frameset.png-b552278b97fdb89f134b6040f929f6ec.ctex::
-Frame_01.png::CompressedTexture2D::2936741559006011008::1764776241::1764776296::1::::<><><>0<>0<>8c3be2a6428d17019d83fdcc56c07fbf<>res://.godot/imported/Frame_01.png-06b65f481190c312f055754faf4930f6.ctex::
-Frame_02.png::CompressedTexture2D::4220158171348004978::1764776241::1764776296::1::::<><><>0<>0<>cb577f480d1f69ccb5082247e71a67ac<>res://.godot/imported/Frame_02.png-9f7475da6b3a2129d74a39d21f0133ad.ctex::
-Frame_03.png::CompressedTexture2D::2593806662856404378::1764776241::1764776296::1::::<><><>0<>0<>36852aa3545d7044b19ad3810425ffff<>res://.godot/imported/Frame_03.png-c4aef1fc909e30b63409928bca37039e.ctex::
-Frame_04.png::CompressedTexture2D::6400476340233828069::1764776241::1764776296::1::::<><><>0<>0<>40301a714ba6190bdb1502ab89bb28c2<>res://.godot/imported/Frame_04.png-f3cf1eddc7f10a2b0230827b77428fec.ctex::
-Frame_05.png::CompressedTexture2D::3413069141613500324::1764776241::1764776296::1::::<><><>0<>0<>cb2724544099901bd6df39981a887a09<>res://.godot/imported/Frame_05.png-62ba83dcf45c6462abe224ccb3c491db.ctex::
-Frame_06.png::CompressedTexture2D::4812850413017721469::1764776241::1764776296::1::::<><><>0<>0<>1691ed15ddb37c55cc2d053661e2b510<>res://.godot/imported/Frame_06.png-03f684da5680e93fc219a17cd9abbeb7.ctex::
-Frame_07.png::CompressedTexture2D::2180895902878893880::1764776241::1764776296::1::::<><><>0<>0<>952ccebcd853abf1f66c8010105ef5af<>res://.godot/imported/Frame_07.png-8e6086c081fbd80422a364b2160392e5.ctex::
-Frame_08.png::CompressedTexture2D::7103688540958017228::1764776241::1764776296::1::::<><><>0<>0<>055e4ba141beb8073d72209cee66a1c1<>res://.godot/imported/Frame_08.png-60063fe89dd0b1209f27989cc8c28ab9.ctex::
-Frame_09.png::CompressedTexture2D::6441868940944742146::1764776241::1764776296::1::::<><><>0<>0<>ee7dea9baef76de13dd0f8bd7961dc43<>res://.godot/imported/Frame_09.png-4037f6492354a23306c3684dfe25e7be.ctex::
-Frame_10.png::CompressedTexture2D::1241501172831354667::1764776241::1764776296::1::::<><><>0<>0<>d8cdf910cc840ca5679f840971dcee99<>res://.godot/imported/Frame_10.png-fc0e045e114267b4d56b184a106b81b5.ctex::
-Frame_11.png::CompressedTexture2D::5846282818693412476::1764776241::1764776296::1::::<><><>0<>0<>645c22e020625a0a875842716941c7b7<>res://.godot/imported/Frame_11.png-d9a0062161f279c43190fb8e20000e13.ctex::
-Frame_12.png::CompressedTexture2D::5821390144541068690::1764776241::1764776296::1::::<><><>0<>0<>2125e53129352ac5fdbef022e2a7903a<>res://.godot/imported/Frame_12.png-9c80bd3ae7876b84c9a4de5b9721ca1f.ctex::
-Frame_13.png::CompressedTexture2D::2807538907996541127::1764776241::1764776296::1::::<><><>0<>0<>201b125953bfa251c054a41b5cebb1e3<>res://.godot/imported/Frame_13.png-1f51ee293d1171f0adde240f17e69499.ctex::
-Frame_14.png::CompressedTexture2D::746484132195792983::1764776241::1764776296::1::::<><><>0<>0<>32542f268c9db1d2c9bf11c4a93e78e2<>res://.godot/imported/Frame_14.png-9fd46efeca90becca58155122b4d6d5a.ctex::
-::res://Assets/Menu Assets/Square Buttons/::1764776241
-::res://Assets/Menu Assets/Square Buttons/Colored Square Buttons/::1764776296
-Audio col_Square Button.png::CompressedTexture2D::3104089524760248868::1764776241::1764776296::1::::<><><>0<>0<>8f4615b36bb7a464270e37e5ec5f3135<>res://.godot/imported/Audio col_Square Button.png-19c955b3a63e2fa7411bd55d16136072.ctex::
-Back col_Square Button.png::CompressedTexture2D::7608667198764882102::1764776241::1764776296::1::::<><><>0<>0<>3572028774d5898e2191256f0d7d24bc<>res://.godot/imported/Back col_Square Button.png-9701a5c94c15288ad720b1c7f93e01e8.ctex::
-Down col_Square Button.png::CompressedTexture2D::7771430518192524449::1764776241::1764776296::1::::<><><>0<>0<>3c3d3222d0517a747b384cc7efae8eda<>res://.godot/imported/Down col_Square Button.png-704808ddb05de638622de435a81a2bea.ctex::
-Home col_Square Button.png::CompressedTexture2D::7832150359927378144::1764776241::1764776296::1::::<><><>0<>0<>10ee0312d03f6ac7fc44c839c2236bf1<>res://.godot/imported/Home col_Square Button.png-700fb64b8b19ffcd950a503e0742fb8d.ctex::
-Info col_Square Button.png::CompressedTexture2D::6122670348690730188::1764776241::1764776296::1::::<><><>0<>0<>177ebe1b79612a9043d2c7f9a7c6dc63<>res://.godot/imported/Info col_Square Button.png-fec67696859acba0511f3d77d72318c5.ctex::
-Music col_Square Button.png::CompressedTexture2D::7111068365712730378::1764776241::1764776296::1::::<><><>0<>0<>ae835e6af95263a7221d2a69a5660daa<>res://.godot/imported/Music col_Square Button.png-6bf78b5c8731804f591ef9d59599d6d0.ctex::
-Next col_Square Button.png::CompressedTexture2D::1500694379303595099::1764776241::1764776296::1::::<><><>0<>0<>d318ffc4c162bc274aa12c46213d85c4<>res://.godot/imported/Next col_Square Button.png-49b19d17be6dfb166d8c0113007a2260.ctex::
-On Off col_Square Button.png::CompressedTexture2D::7670616039698619435::1764776241::1764776296::1::::<><><>0<>0<>bec35761023b3b83cdc29c453324ffcf<>res://.godot/imported/On Off col_Square Button.png-cc1ca32ff141bb804b452737273b61fb.ctex::
-Pause col_Square Button.png::CompressedTexture2D::3310442876356731724::1764776241::1764776296::1::::<><><>0<>0<>e30266b49a64ffbe5be488cf6991c4dc<>res://.godot/imported/Pause col_Square Button.png-be74a57fc4c5bd68c6a47e3942f8fbe2.ctex::
-Play col_Square Button.png::CompressedTexture2D::2483884196744428232::1764776241::1764776296::1::::<><><>0<>0<>20a027003b2fbfd6638306df1f95cb96<>res://.godot/imported/Play col_Square Button.png-8f143a1b1c41f327c3717bc8ba2cd3a5.ctex::
-Questionmark col_Square Button.png::CompressedTexture2D::6461818842590796597::1764776241::1764776296::1::::<><><>0<>0<>197d6dc92f2f45f2e88e726797c39bc2<>res://.godot/imported/Questionmark col_Square Button.png-8c5660c0381371e41f7aae032d0ad4a1.ctex::
-Return col_Square Button.png::CompressedTexture2D::4264296594379490349::1764776241::1764776296::1::::<><><>0<>0<>e02c1dfd2334acd54bbafeaa902224c7<>res://.godot/imported/Return col_Square Button.png-823115916de7e96b748c1980a4575a09.ctex::
-Settings col_Square Button.png::CompressedTexture2D::8987172617789775877::1764776241::1764776296::1::::<><><>0<>0<>dd53f583663fda73a4b566a9138203fc<>res://.godot/imported/Settings col_Square Button.png-76757b84904303fada4a5cfb0e1e2f26.ctex::
-Up col_Square Button.png::CompressedTexture2D::2995336923780743744::1764776241::1764776296::1::::<><><>0<>0<>8fb469761ae9753b568c8de0e4de92a5<>res://.godot/imported/Up col_Square Button.png-63d88a889ab01f6aad3044451e1de242.ctex::
-V col_Square Button.png::CompressedTexture2D::3513401357082535204::1764776241::1764776296::1::::<><><>0<>0<>f980c1861b1c81606cf627fef63fb548<>res://.godot/imported/V col_Square Button.png-3a8c805a06c1292da82a201a43005103.ctex::
-X col_Square Button.png::CompressedTexture2D::2406544292593532563::1764776241::1764776296::1::::<><><>0<>0<>b646b6e48a56117050bd3cf27dcdf38b<>res://.godot/imported/X col_Square Button.png-ad3f55037604f1ad5957c454cb40b1e4.ctex::
-::res://Assets/Menu Assets/Square Buttons/Square Buttons/::1764776296
-Audio Square Button.png::CompressedTexture2D::5282858079600042676::1764776241::1764776296::1::::<><><>0<>0<>775204831c9f51b40309490f7b3e6588<>res://.godot/imported/Audio Square Button.png-4acfdc9b67f7d44641238f39e3e60594.ctex::
-Back Square Button.png::CompressedTexture2D::2155811676435688299::1764776241::1764776296::1::::<><><>0<>0<>865ea95e1bb3ea61c765fd517e861550<>res://.godot/imported/Back Square Button.png-33240a041b0dc93e0ded7158e20b169b.ctex::
-Down Square Button.png::CompressedTexture2D::9022050577190627717::1764776241::1764776296::1::::<><><>0<>0<>ed56b74c6d9142d03e475ee087128a73<>res://.godot/imported/Down Square Button.png-84a0fda7fd425ae206f2ddde7f76f101.ctex::
-Home Square Button.png::CompressedTexture2D::2563426011655800184::1764776241::1764776296::1::::<><><>0<>0<>aa7280c1b6d762c72e207063c9caa086<>res://.godot/imported/Home Square Button.png-d9a4ecf6218034d639387cdac45444b9.ctex::
-Info Square Button.png::CompressedTexture2D::2731888734502016594::1764776241::1764776296::1::::<><><>0<>0<>b8b3886888356490cf5cbcd88b3b143b<>res://.godot/imported/Info Square Button.png-52d27b28a746ca3f0b93fab97f004e62.ctex::
-Music Square Button.png::CompressedTexture2D::8684289098129727546::1764776241::1764776296::1::::<><><>0<>0<>52f421101e3490d978b0f38ef5594fc8<>res://.godot/imported/Music Square Button.png-aa02fafebe2578990de9f41b4c17982d.ctex::
-Next Square Button.png::CompressedTexture2D::4776520001919284388::1764776241::1764776296::1::::<><><>0<>0<>c1267eca66a752d46e30258e0bcb1e80<>res://.godot/imported/Next Square Button.png-9ca71c8cb4649fd565531bf88c5aefc8.ctex::
-On Off Square Button.png::CompressedTexture2D::1493577866194341904::1764776241::1764776296::1::::<><><>0<>0<>637711bbc7948d576fcf32994a9a7384<>res://.godot/imported/On Off Square Button.png-240331f5dca5cc1ae5ffe4103a1b4115.ctex::
-Pause Square Button.png::CompressedTexture2D::6729742818840416566::1764776241::1764776296::1::::<><><>0<>0<>8530595fd34e7f0878c2769bdcb8e1bf<>res://.godot/imported/Pause Square Button.png-99da1178d491eac2b932163af073db59.ctex::
-Play Square Button.png::CompressedTexture2D::3513030708925441745::1764776241::1764776296::1::::<><><>0<>0<>e69a1e23f4d94034b0b2486585f2ecf3<>res://.godot/imported/Play Square Button.png-61b8bf1c864948a8aaed97ae62c39b73.ctex::
-Questionmark Square Button.png::CompressedTexture2D::9217311318421529827::1764776241::1764776296::1::::<><><>0<>0<>01cfb4cc0ea4426dbe94975ed22dac57<>res://.godot/imported/Questionmark Square Button.png-31af11951313e8dcd49f61920f685b19.ctex::
-Return Square Button.png::CompressedTexture2D::1027194850677072524::1764776241::1764776296::1::::<><><>0<>0<>544beeced8c3b7fae66e547b054d95c9<>res://.godot/imported/Return Square Button.png-2bab76ac924fd867f0a496304b510a84.ctex::
-Settings Square Button.png::CompressedTexture2D::8221742171463113174::1764776241::1764776296::1::::<><><>0<>0<>b4f53c48606d8394f6eb8ff1f31a0a2d<>res://.godot/imported/Settings Square Button.png-f80daf3ab8ff4215dbbd2ca1785f8728.ctex::
-Up Square Button.png::CompressedTexture2D::5715084124551940354::1764776241::1764776296::1::::<><><>0<>0<>4f72979bdd3afe8496b6774be32b9dc3<>res://.godot/imported/Up Square Button.png-36825e09bf39f3e307ce42b8bc3be63b.ctex::
-V Square Button.png::CompressedTexture2D::8290005019002223556::1764776241::1764776296::1::::<><><>0<>0<>030142778db5149a7683a8d15378f35a<>res://.godot/imported/V Square Button.png-3c1ad88a409c1f605215f70cf7d68665.ctex::
-X Square Button.png::CompressedTexture2D::4852304835070788836::1764776241::1764776296::1::::<><><>0<>0<>735378cf0c4f3e59ae304ad29f298363<>res://.godot/imported/X Square Button.png-e53e04e72767c2a72beaa5b0250aeae1.ctex::
-::res://Assets/powerup/::1764776296
-Crystal.png::CompressedTexture2D::6222391469465242075::1764776244::1764776296::1::::<><><>0<>0<>d4274edf172bd4098fd41e057410c8d5<>res://.godot/imported/Crystal.png-612e175786aa99687e4fdf337e82d8e0.ctex::
-::res://Scenes/::1764908788
-credits.gd::GDScript::2538683144315477948::1764776244::0::1::::<>Control<><>0<>0<><>::
-Credits.tscn::PackedScene::1250457543530526717::1764776244::0::1::::<><><>0<>0<><>::uid://bcf00f836iaci::::res://Scenes/credits.gd<>uid://c6l5vp4s3yj4w::::res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF
-gameplay.tscn::PackedScene::207984768572333918::1764908788::0::1::::<><><>0<>0<><>::uid://cq6116t5rh5i2::::res://Assets/Background/background1.png<>uid://bsd8qageiko3r::::res://Scripts/gameplay.gd<>uid://dmsxtbqexy1e7::::res://Scenes/obstacle.tscn<>uid://dqm70vijbuwgv::::res://Assets/Background/background1Alt.png<>uid://cj8gseflr0jg4::::res://Assets/main_lev_buildB.png<>uid://4k1s0lh78k5w::::res://Scenes/soul_fragment.tscn<>uid://bscf12crh6cmr::::res://Scenes/powerup.tscn<>uid://bl4nwjbr5dqlr::::res://Scenes/player.tscn<>uid://cc75y11mixbtw::::res://Assets/fonts/pixel/PixelGame-R9AZe.otf<>uid://dcxwy6e40b4ea::::res://Assets/Ghosts/monster-ghost-11variations.png<>uid://u8tndy3x3r5r::::res://Assets/progress_bar.png<>uid://b4iaj6j10omqb::::res://Assets/Fields of Ice.wav
-game_mode.tscn::PackedScene::1088976628253721648::1764857554::0::1::::<><><>0<>0<><>::uid://c6l5vp4s3yj4w::::res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF
-game_test.tscn::PackedScene::7859644264425905438::1764776244::0::1::::<><><>0<>0<><>::uid://cong7bbulpg5t::::res://Assets/Background/background1.png
-main_menu.tscn::PackedScene::7990724699771699435::1764776244::0::1::::<><><>0<>0<><>::uid://c6l5vp4s3yj4w::::res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png<>uid://dv7mxbs0eg2k1::::res://Scripts/main_menu.gd<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF<>uid://dsttcbthqu7v5::::res://Scenes/settings_menu.tscn<>uid://doakkre854o76::::res://Scenes/menu_confirmation.tscn
-menu_confirmation.tscn::PackedScene::8142531790495256447::1764776244::0::1::::<><><>0<>0<><>::uid://cv5ets7lj82ee::::res://Scripts/menu_confirmation.gd<>uid://dyp8fkh6vkdxf::::res://Assets/Fonts/pixeled/04B_30__.TTF
-obstacle.tscn::PackedScene::8040117472680261184::1764776244::0::1::::<><><>0<>0<><>::uid://df6tjr65khjxt::::res://Scripts/obstacle.gd
-pause_menu.tscn::PackedScene::5573899883809744261::1764776244::0::1::::<><><>0<>0<><>::uid://c4xrasno5vrka::::res://Scripts/pause_menu.gd<>uid://du2kxdh5oar78::::res://Shaders/pause_menu.gdshader
-player.tscn::PackedScene::3219194002018647327::1764776244::0::1::::<><><>0<>0<><>::uid://bsvlfrxv2ej7::::res://Scripts/player.gd<>uid://c1hp5y7nhe3vg::::res://Assets/Character/spark/spark.png
-powerup.tscn::PackedScene::3654300062294203577::1764854076::0::1::::<><><>0<>0<><>::uid://cuwf44ouvu0lr::::res://Assets/powerup/Crystal.png<>uid://lp3rs07ep7lf::::res://Scripts/powerup.gd
-settings_menu.tscn::PackedScene::8463041690556281640::1764857022::0::1::::<><><>0<>0<><>::uid://dwa0fbburxkvk::::res://Scripts/settings_menu.gd<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF
-soul_fragment.gd::GDScript::7691680423884277607::1764776244::0::1::::<>Area2D<><>0<>0<><>::
-soul_fragment.tscn::PackedScene::2057732359584475618::1764856700::0::1::::<><><>0<>0<><>::uid://d2wdlhdbeg1ao::::res://Scripts/soul_fragment.gd<>uid://dcxwy6e40b4ea::::res://Assets/Ghosts/monster-ghost-11variations.png
-::res://Scripts/::1764868447
-gameplay.gd::GDScript::3658045245365304017::1764868011::0::1::::<>Node2D<><>0<>0<><>::
-main_menu.gd::GDScript::8700057614252234218::1764776244::0::1::::<>Control<><>0<>0<><>::
-menu_confirmation.gd::GDScript::6309016209829123312::1764776244::0::1::::<>Control<><>0<>0<><>::
-menu_music.gd::GDScript::5286280522419274487::1764776244::0::1::::<>Node2D<><>0<>0<><>::
-obstacle.gd::GDScript::7575372616815626781::1764853356::0::1::::<>Area2D<><>0<>0<><>::
-pause_menu.gd::GDScript::6856831676289337376::1764776244::0::1::::<>Control<><>0<>0<><>::
-player.gd::GDScript::108642633744727722::1764868447::0::1::::<>Area2D<><>0<>0<><>::
-powerup.gd::GDScript::804774366123415923::1764854076::0::1::::<>Area2D<><>0<>0<><>::
-settings_menu.gd::GDScript::8704943519905198724::1764776244::0::1::::<>Control<><>0<>0<><>::
-soul_fragment.gd::GDScript::9099979306955656774::1764854123::0::1::::<>Area2D<><>0<>0<><>::
-::res://Shaders/::1764776244
-pause_menu.gdshader::Shader::8619425536152515589::1764776244::0::1::::<><><>0<>0<><>::
+::res://::1764971442
+default_bus_layout.tres::AudioBusLayout::8208444497028997562::1764971412::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::6479420569185110009::1764971412::1764971412::1::::<><><>0<>0<>8ae1e026d1b11e51ecbad7f992d30bb5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+leaderboard.cfg::TextFile::-1::1764971412::0::1::::<><><>0<>0<><>::
+menu_music.tscn::PackedScene::6827415254564284828::1764971412::0::1::::<><><>0<>0<><>::uid://chkyjdwk8m6j0::::res://Scripts/menu_music.gd<>uid://cs7xky4itstxf::::res://Assets/Title Theme.wav
+README.md::TextFile::-1::1764971412::0::1::::<><><>0<>0<><>::
+::res://Assets/::1764972617
+Fields of Ice.wav::AudioStreamWAV::4438429886716050769::1764971411::1764971411::1::::<><><>0<>0<>4f7e8e1fe311d76dab759b7afff0b5f2<>res://.godot/imported/Fields of Ice.wav-ceced6980d9fd75a85a309b00d572a39.sample::
+main_lev_buildB.png::CompressedTexture2D::5473062090600276357::1764971412::1764971412::1::::<><><>0<>0<>7052b52d25cc6e68dfe5a7c95ed7f556<>res://.godot/imported/main_lev_buildB.png-e93a0a8e69e485fbce4deb07fead633b.ctex::
+progress_bar.png::CompressedTexture2D::1473078372777351969::1764971412::1764971412::1::::<><><>0<>0<>96a347e515742f2a282190347a417f3a<>res://.godot/imported/progress_bar.png-0acf7e6b44fb4bdb7e3f70849d91ebc3.ctex::
+public-license.txt::TextFile::-1::1764971412::0::1::::<><><>0<>0<><>::
+Title Theme.wav::AudioStreamWAV::6103716295522711007::1764971411::1764971411::1::::<><><>0<>0<>5738c919245651bf15c85f7c7c431167<>res://.godot/imported/Title Theme.wav-18a13466a11ddea9f6e8182e5494b124.sample::
+::res://Assets/Background/::1764972655
+background1.png::CompressedTexture2D::5961485307385257579::1764971411::1764971411::1::::<><><>0<>0<>d90be8e2d805ae904c2fbcd43f5d2f0f<>res://.godot/imported/background1.png-9f387bd277a701d429a83ae76c1cc844.ctex::
+background1Alt.png::CompressedTexture2D::8309044786712543113::1764971411::1764971411::1::::<><><>0<>0<>207e4983631bd43a0d2974ba3660fbb3<>res://.godot/imported/background1Alt.png-69d654b323fc3151b1cba4e3dd00569f.ctex::
+bg-moon.png::CompressedTexture2D::1109680912635644552::1764971412::1764972655::1::::<><><>0<>0<>882b32bbc36abd335bb046075f85c8fc<>res://.godot/imported/bg-moon.png-2ec083766877f3dd33afb8baccb10a16.ctex::
+main_lev_buildB.png::CompressedTexture2D::1883098916621364195::1764971411::1764971411::1::::<><><>0<>0<>9013b4fa14141027e12a8ce65bf65b56<>res://.godot/imported/main_lev_buildB.png-96f4c9fc1e00b735aea9a9460441c6a7.ctex::
+::res://Assets/Character/::1764971411
+::res://Assets/Character/spark/::1764971411
+spark.png::CompressedTexture2D::6613167585556456304::1764971411::1764971411::1::::<><><>0<>0<>47ff20c8a0d6aa2ccd8882457164aea9<>res://.godot/imported/spark.png-78574aa2aedfb8f16f44e43b96dee2aa.ctex::
+::res://Assets/fonts/::1764972053
+::res://Assets/fonts/pixel/::1764971412
+PixelGame-R9AZe.otf::FontFile::4981144917957731288::1764971412::1764971412::1::::<><><>0<>0<>8c0ed748ba42924ae15194f79a049874<>res://.godot/imported/PixelGame-R9AZe.otf-d24415f132b7c4a530d3aed633ff73fa.fontdata::
+PixelGameExtrude-BLqwn.otf::FontFile::5180454823024984391::1764971412::1764971412::1::::<><><>0<>0<>b19406ff9c48d8ff2559e6d120592dbd<>res://.godot/imported/PixelGameExtrude-BLqwn.otf-3428fde3db2ad9bd5c521717df318af0.fontdata::
+::res://Assets/fonts/pixeled/::1764971412
+04B_30__.TTF::FontFile::8876773091917885663::1764971412::1764971412::1::::<><><>0<>0<>5e653993ed6cd84393c602ebc23fb9f3<>res://.godot/imported/04B_30__.TTF-e9392f1095bea832d93a3869be9cc94f.fontdata::
+::res://Assets/fonts/upheaval/::1764971412
+upheaval.txt::TextFile::-1::1764971412::0::1::::<><><>0<>0<><>::
+upheavtt.ttf::FontFile::6904854216491065346::1764971412::1764971412::1::::<><><>0<>0<>8c896f896968f30993cae1c8386d8795<>res://.godot/imported/upheavtt.ttf-e6b4e20b03a941871edf836a08c4dd6f.fontdata::
+::res://Assets/Ghosts/::1764972732
+bg-moon.png::CompressedTexture2D::7699784079425108850::1764972732::1764972732::1::::<><><>0<>0<>350c602e4cb9be427b3bcecc2bf157b7<>res://.godot/imported/bg-moon.png-2850e6a4d64e8794828d710f7ebda6c4.ctex::
+monster-ghost-11variations.png::CompressedTexture2D::7348500695347503284::1764971411::1764971411::1::::<><><>0<>0<>a8334765bb115d320546b46b58b8f34e<>res://.godot/imported/monster-ghost-11variations.png-89c2f3f215279176008201a47374e0f1.ctex::
+::res://Assets/gothicvania-cemetery-files/::1764972264
+::res://Assets/gothicvania-cemetery-files/demo/::1764972250
+::res://Assets/gothicvania-cemetery-files/demo/assets/::1764972212
+::res://Assets/gothicvania-cemetery-files/demo/assets/environment/::1764972277
+bg-moon.png::CompressedTexture2D::2923303511208654237::1764971412::1764972277::1::::<><><>0<>0<>4dfe40a59b079c8691e0a3c9635168e6<>res://.godot/imported/bg-moon.png-5fbc4918d5a03416b9c4a132903635fb.ctex::
+::res://Assets/powerup/::1764971412
+Crystal.png::CompressedTexture2D::6222391469465242075::1764971412::1764971412::1::::<><><>0<>0<>d4274edf172bd4098fd41e057410c8d5<>res://.godot/imported/Crystal.png-612e175786aa99687e4fdf337e82d8e0.ctex::
+::res://Scenes/::1764972138
+credits.gd::GDScript::2538683144315477948::1764971412::0::1::::<>Control<><>0<>0<><>::
+Credits.tscn::PackedScene::1250457543530526717::1764971412::0::1::::<><><>0<>0<><>::uid://bcf00f836iaci::::res://Scenes/credits.gd<>uid://c6l5vp4s3yj4w::::res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF
+gameplay.tscn::PackedScene::207984768572333918::1764972138::0::1::::<><><>0<>0<><>::uid://cq6116t5rh5i2::::res://Assets/Background/background1.png<>uid://bsd8qageiko3r::::res://Scripts/gameplay.gd<>uid://dmsxtbqexy1e7::::res://Scenes/obstacle.tscn<>uid://dqm70vijbuwgv::::res://Assets/Background/background1Alt.png<>uid://cj8gseflr0jg4::::res://Assets/main_lev_buildB.png<>uid://4k1s0lh78k5w::::res://Scenes/soul_fragment.tscn<>uid://bscf12crh6cmr::::res://Scenes/powerup.tscn<>uid://bl4nwjbr5dqlr::::res://Scenes/player.tscn<>uid://cc75y11mixbtw::::res://Assets/fonts/pixel/PixelGame-R9AZe.otf<>uid://dcxwy6e40b4ea::::res://Assets/Ghosts/monster-ghost-11variations.png<>uid://u8tndy3x3r5r::::res://Assets/progress_bar.png<>uid://b4iaj6j10omqb::::res://Assets/Fields of Ice.wav
+game_mode.tscn::PackedScene::1088976628253721648::1764971412::0::1::::<><><>0<>0<><>::uid://c6l5vp4s3yj4w::::res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF
+game_test.tscn::PackedScene::7859644264425905438::1764971412::0::1::::<><><>0<>0<><>::uid://cong7bbulpg5t::::res://Assets/Background/background1.png
+main_menu.tscn::PackedScene::7990724699771699435::1764971412::0::1::::<><><>0<>0<><>::uid://c6l5vp4s3yj4w::::res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png<>uid://dv7mxbs0eg2k1::::res://Scripts/main_menu.gd<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF<>uid://dsttcbthqu7v5::::res://Scenes/settings_menu.tscn<>uid://doakkre854o76::::res://Scenes/menu_confirmation.tscn
+menu_confirmation.tscn::PackedScene::8142531790495256447::1764971412::0::1::::<><><>0<>0<><>::uid://cv5ets7lj82ee::::res://Scripts/menu_confirmation.gd<>uid://dyp8fkh6vkdxf::::res://Assets/Fonts/pixeled/04B_30__.TTF
+obstacle.tscn::PackedScene::8040117472680261184::1764971412::0::1::::<><><>0<>0<><>::uid://df6tjr65khjxt::::res://Scripts/obstacle.gd
+pause_menu.tscn::PackedScene::5573899883809744261::1764971412::0::1::::<><><>0<>0<><>::uid://c4xrasno5vrka::::res://Scripts/pause_menu.gd<>uid://du2kxdh5oar78::::res://Shaders/pause_menu.gdshader
+player.tscn::PackedScene::3219194002018647327::1764971412::0::1::::<><><>0<>0<><>::uid://bsvlfrxv2ej7::::res://Scripts/player.gd<>uid://c1hp5y7nhe3vg::::res://Assets/Character/spark/spark.png
+powerup.tscn::PackedScene::3654300062294203577::1764971412::0::1::::<><><>0<>0<><>::uid://cuwf44ouvu0lr::::res://Assets/powerup/Crystal.png<>uid://lp3rs07ep7lf::::res://Scripts/powerup.gd
+settings_menu.tscn::PackedScene::8463041690556281640::1764971412::0::1::::<><><>0<>0<><>::uid://dwa0fbburxkvk::::res://Scripts/settings_menu.gd<>uid://dyp8fkh6vkdxf::::res://Assets/fonts/pixeled/04B_30__.TTF
+soul_fragment.gd::GDScript::7691680423884277607::1764971412::0::1::::<>Area2D<><>0<>0<><>::
+soul_fragment.tscn::PackedScene::2057732359584475618::1764971412::0::1::::<><><>0<>0<><>::uid://d2wdlhdbeg1ao::::res://Scripts/soul_fragment.gd<>uid://dcxwy6e40b4ea::::res://Assets/Ghosts/monster-ghost-11variations.png
+::res://Scripts/::1764971412
+gameplay.gd::GDScript::3658045245365304017::1764971412::0::1::::<>Node2D<><>0<>0<><>::
+main_menu.gd::GDScript::8700057614252234218::1764971412::0::1::::<>Control<><>0<>0<><>::
+menu_confirmation.gd::GDScript::6309016209829123312::1764971412::0::1::::<>Control<><>0<>0<><>::
+menu_music.gd::GDScript::5286280522419274487::1764971412::0::1::::<>Node2D<><>0<>0<><>::
+obstacle.gd::GDScript::7575372616815626781::1764971412::0::1::::<>Area2D<><>0<>0<><>::
+pause_menu.gd::GDScript::6856831676289337376::1764971412::0::1::::<>Control<><>0<>0<><>::
+player.gd::GDScript::108642633744727722::1764971412::0::1::::<>Area2D<><>0<>0<><>::
+powerup.gd::GDScript::804774366123415923::1764971412::0::1::::<>Area2D<><>0<>0<><>::
+settings_menu.gd::GDScript::8704943519905198724::1764971412::0::1::::<>Control<><>0<>0<><>::
+soul_fragment.gd::GDScript::9099979306955656774::1764971412::0::1::::<>Area2D<><>0<>0<><>::
+::res://Shaders/::1764971412
+pause_menu.gdshader::Shader::8619425536152515589::1764971412::0::1::::<><><>0<>0<><>::

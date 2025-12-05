@@ -1,13 +1,13 @@
 [gd_scene load_steps=19 format=3 uid="uid://dl31clai5ff7p"]
 
-[ext_resource type="Texture2D" uid="uid://c6l5vp4s3yj4w" path="res://Assets/gothicvania-cemetery-files/demo/assets/environment/bg-moon.png" id="1_1ehe0"]
 [ext_resource type="Script" uid="uid://dv7mxbs0eg2k1" path="res://Scripts/main_menu.gd" id="1_ce3w2"]
 [ext_resource type="FontFile" uid="uid://dyp8fkh6vkdxf" path="res://Assets/fonts/pixeled/04B_30__.TTF" id="2_1ehe0"]
 [ext_resource type="PackedScene" uid="uid://dsttcbthqu7v5" path="res://Scenes/settings_menu.tscn" id="2_n45e2"]
+[ext_resource type="Texture2D" uid="uid://p2sjuttg1ebg" path="res://Assets/Background/bg-moon.png" id="2_opfnp"]
 [ext_resource type="PackedScene" uid="uid://doakkre854o76" path="res://Scenes/menu_confirmation.tscn" id="5_n45e2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_opfnp"]
-texture = ExtResource("1_1ehe0")
+texture = ExtResource("2_opfnp")
 
 [sub_resource type="Animation" id="Animation_yhxw7"]
 length = 0.001
