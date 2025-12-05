@@ -888,7 +888,7 @@ layer_0/tile_data = PackedInt32Array(655364, 1376257, 14, 720900, 1376257, 15, 7
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="UI"]
 texture_filter = 1
-position = Vector2(86.99999, 245)
+position = Vector2(85.99998, 236.00002)
 scale = Vector2(2.443049, 2.037974)
 sprite_frames = SubResource("SpriteFrames_ra47u")
 animation = &"fragment"
